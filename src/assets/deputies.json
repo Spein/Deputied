@@ -1,0 +1,4618 @@
+[
+  {
+    "id": "WaB-1",
+    "name": "Agache",
+    "surname": "Laurent",
+    "parti": "ECOLO",
+    "circonscription": "Tournai-Ath-Mouscron",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Tournai (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "2 117,52",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Brasserie de Cazeau sprl",
+        "fonction": "Gérant",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Sodecaz sprl",
+        "fonction": "Gérant",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Start Construction scrlfs",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "Cazeau, 67",
+      "dep_cp": "7520",
+      "dep_localite": "TEMPLEUVE"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": "0472.97.09.53",
+    "fax": null,
+    "email": "l.agache@parlement-wallonie.be",
+    "site": null,
+    "siege": "D016"
+  },
+  {
+    "id": "WaB-2",
+    "name": "Ahallouch",
+    "surname": "Fatima",
+    "parti": "PS",
+    "circonscription": "Tournai-Ath-Mouscron",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Mouscron (Ville de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "2 852,24",
+        "avantage": ""
+      },
+      {
+        "titre": "AIS Mouscron Logement",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Intercommunale d'Etude et de Gestion (IEG)",
+        "fonction": "Membre de lassemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Société de Logements de Mouscron scrl",
+        "fonction": "Administratrice",
+        "remuneration": "1 305,78",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénatrice des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "PS Fédération de Wallonie picarde",
+        "fonction": "Vice-Présidente",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "USC Mouscron",
+        "fonction": "Présidente f.f.",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue du Val, 12",
+      "dep_cp": "7700",
+      "dep_localite": "MOUSCRON"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": "056.34.49.18",
+    "fax": null,
+    "email": "f.ahallouch@parlement-wallonie.be",
+    "site": null,
+    "siege": "D005"
+  },
+  {
+    "id": "WaB-3",
+    "name": "Antoine",
+    "surname": "André",
+    "parti": "cdH",
+    "circonscription": "Nivelles",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Perwez (Commune de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "800",
+        "avantage": ""
+      },
+      {
+        "titre": "Le Val d’Orbais asbl",
+        "fonction": "Président du conseil d’administration",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Union des Villes et Communes de Wallonie (UVCW)",
+        "fonction": "Administrateur",
+        "remuneration": "515.32",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénateur des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Président de groupe",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Action Solidaire asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "cdH-BW asbl",
+        "fonction": "Membre du Bureau",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre régional de la Famille et de l’Enfance asbl",
+        "fonction": "Administrateur délégué",
+        "remuneration": "Rémunéré",
+        "avantage": "Oui"
+      },
+      {
+        "titre": "Service Jeunesse Brabant asbl",
+        "fonction": "Président",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "chaussée de Wavre, 4",
+      "dep_cp": "1360",
+      "dep_localite": "PERWEZ"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/andre.antoine",
+      "dep_twitter": "https://twitter.com/Andre_Antoine",
+      "dep_instagram": null
+    },
+    "tel": "081.65.84.84",
+    "fax": null,
+    "email": "a.antoine@parlement-wallonie.be",
+    "site": "http://www.andre-antoine.be",
+    "siege": "D036"
+  },
+  {
+    "id": "WaB-4",
+    "name": "Bastin",
+    "surname": "Christophe",
+    "parti": "cdH",
+    "circonscription": "Dinant-Philippeville",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Onhaye (Commune d’)",
+        "fonction": "Bourgmestre",
+        "remuneration": "41 635,08",
+        "avantage": ""
+      },
+      {
+        "titre": "Association Intercommunale des Eaux de la Molignée scrl (AIEM)",
+        "fonction": "Administrateur",
+        "remuneration": "600",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de Police Haute-Meuse",
+        "fonction": "Président",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de secours DINAPHI",
+        "fonction": "Président",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Haute, 1",
+      "dep_cp": "5524",
+      "dep_localite": "GERIN"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/ChristopheBastinCDH",
+      "dep_twitter": "https://twitter.com/ChristopheBast1",
+      "dep_instagram": null
+    },
+    "tel": "0497.18.89.46",
+    "fax": null,
+    "email": "c.bastin@parlement-wallonie.be",
+    "site": "https://www.christophebastin.be",
+    "siege": "D014"
+  },
+  {
+    "id": "WaB-5",
+    "name": "Bellot",
+    "surname": "François",
+    "parti": "MR",
+    "circonscription": "Dinant-Philippeville",
+    "fonction": "1er Vice-Président du Parlement",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Rochefort (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "1 553,70",
+        "avantage": ""
+      },
+      {
+        "titre": "BEP Expansion",
+        "fonction": "Membre de lassemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Commission consultative communale daménagement du territoire et de mobilité (CCATM)",
+        "fonction": "Membre",
+        "remuneration": "25",
+        "avantage": ""
+      },
+      {
+        "titre": "Geopark Famenne-Ardenne asbl",
+        "fonction": "Membre de lassemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Maison du Tourisme Famenne-Ardenne asbl",
+        "fonction": "Membre de lassemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Vivalia",
+        "fonction": "Membre de lassemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "98 332,79",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Membre du Bureau",
+        "remuneration": "3 000,87",
+        "avantage": ""
+      },
+      {
+        "titre": "Berof sa",
+        "fonction": "Président et administrateur délégué",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Enhytra srl",
+        "fonction": "Gérant",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Fédération MR darrondissement de Dinant-Philippeville",
+        "fonction": "Président",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Pays de Famenne asbl",
+        "fonction": "Président du conseil d’administration",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue de Behogne, 35",
+      "dep_cp": "5580",
+      "dep_localite": "ROCHEFORT"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/BellotFrancois",
+      "dep_twitter": "https://twitter.com/francoisbellot",
+      "dep_instagram": null
+    },
+    "tel": "084.22.06.01",
+    "fax": "084.22.06.10",
+    "email": "f.bellot@parlement-wallonie.be",
+    "site": null,
+    "siege": "D074"
+  },
+  {
+    "id": "WaB-6",
+    "name": "Bernard",
+    "surname": "Alice",
+    "parti": "PTB",
+    "circonscription": "Liège",
+    "fonction": "Présidente de groupe politique",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Seraing (Ville de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "1 411,82",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre Hospitalier Bois de l’Abbaye",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre Hospitalier Régional de la Citadelle",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Interseniors scrl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Présidente de groupe",
+        "remuneration": "8 987,79",
+        "avantage": ""
+      },
+      {
+        "titre": "Médecine pour le Peuple - Seraing asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Parti du Travail de Belgique",
+        "fonction": "Membre du Conseil national",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Parti du Travail de Belgique",
+        "fonction": "Membre du Conseil provincial de Liège",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Mathieu Laensberg, 20",
+      "dep_cp": "4000",
+      "dep_localite": "LIEGE"
+    },
+    "rs": {
+      "dep_facebook": "http://www.facebook.com/alice.bernard.37",
+      "dep_twitter": "https://twitter.com/@Alice_Bernrd",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "a.bernard@parlement-wallonie.be",
+    "site": null,
+    "siege": "D030"
+  },
+  {
+    "id": "WaB-8",
+    "name": "Beugnies",
+    "surname": "John",
+    "parti": "PTB",
+    "circonscription": "Mons",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Mons (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "2 176,25",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "avenue de la Faïencerie, 57 boîte 2/1",
+      "dep_cp": "7012",
+      "dep_localite": "JEMAPPES"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": null,
+    "fax": null,
+    "email": "j.beugnies@parlement-wallonie.be",
+    "site": null,
+    "siege": "D027"
+  },
+  {
+    "id": "WaB-9",
+    "name": "Bierin",
+    "surname": "Olivier",
+    "parti": "ECOLO",
+    "circonscription": "Liège",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "rue des Wallons, 132 B",
+      "dep_cp": "4000",
+      "dep_localite": "LIEGE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/BierinOlivier",
+      "dep_twitter": "https://twitter.com/OlivierBierin",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "o.bierin@parlement-wallonie.be",
+    "site": "https://olivierbierin.ecolo.be",
+    "siege": "D020"
+  },
+  {
+    "id": "WaB-13",
+    "name": "Cassart-Mailleux",
+    "surname": "Caroline",
+    "parti": "MR",
+    "circonscription": "Huy-Waremme",
+    "fonction": "",
+    "sexe": "F",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "Béemont, 9A",
+      "dep_cp": "4590",
+      "dep_localite": "OUFFET"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/caroline.cassart.9",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "c.cassartmailleux@parlement-wallonie.be",
+    "site": "http://www.caroline-cassart.be",
+    "siege": "D056"
+  },
+  {
+    "id": "WaB-14",
+    "name": "Clersy",
+    "surname": "Christophe",
+    "parti": "ECOLO",
+    "circonscription": "Charleroi-Thuin",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "chemin de Beaufaux, 11",
+      "dep_cp": "6530",
+      "dep_localite": "THUIN"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": "071.30.43.25",
+    "fax": null,
+    "email": "c.clersy@parlement-wallonie.be",
+    "site": null,
+    "siege": "D018"
+  },
+  {
+    "id": "WaB-15",
+    "name": "Collin",
+    "surname": "René",
+    "parti": "cdH",
+    "circonscription": "Arlon-Marche-Bastogne-Neufchâteau-Virton",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Marche-en-Famenne (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "1 572,39",
+        "avantage": ""
+      },
+      {
+        "titre": "Fond de Promotion Médical de IFAC (FPM-IFAC) asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Vivalia",
+        "fonction": "Administrateur",
+        "remuneration": "2 784,93",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Président de commission",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "cdH Province de Luxembourg",
+        "fonction": "Président",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "boulevard du Midi, 35",
+      "dep_cp": "6900",
+      "dep_localite": "MARCHE-EN-FAMENNE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/rene.collin.31?ref=bookmarks",
+      "dep_twitter": "https://twitter.com/Rene_Collin",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "r.collin@parlement-wallonie.be",
+    "site": "http://www.rene-collin.be/",
+    "siege": "D015"
+  },
+  {
+    "id": "WaB-17",
+    "name": "Courard",
+    "surname": "Philippe",
+    "parti": "PS",
+    "circonscription": "Arlon-Marche-Bastogne-Neufchâteau-Virton",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Hotton (Commune de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "1 125,00",
+        "avantage": ""
+      },
+      {
+        "titre": "IDELUX Développement",
+        "fonction": "Administrateur",
+        "remuneration": "1 971,55",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Président de commission",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénateur des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Fédération PS Luxembourg",
+        "fonction": "Vice-Président",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Mutualité Socialiste du Luxembourg",
+        "fonction": "Administrateur et membre de lassemblée générale",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Neuve, 1",
+      "dep_cp": "6900",
+      "dep_localite": "MARCHE-EN-FAMENNE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/ph.courard",
+      "dep_twitter": "https://twitter.com/CourardPhilippe",
+      "dep_instagram": null
+    },
+    "tel": "084.46.84.40",
+    "fax": null,
+    "email": "p.courard@parlement-wallonie.be",
+    "site": null,
+    "siege": "D044"
+  },
+  {
+    "id": "WaB-18",
+    "name": "Cremasco",
+    "surname": "Veronica",
+    "parti": "ECOLO",
+    "circonscription": "Liège",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "thier Savary, 24",
+      "dep_cp": "4000",
+      "dep_localite": "LIEGE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/vercremasco/",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "v.cremasco@parlement-wallonie.be",
+    "site": "https://www.veronicacremasco.be/",
+    "siege": "D038"
+  },
+  {
+    "id": "WaB-19",
+    "name": "Crucke",
+    "surname": "Jean-Luc",
+    "parti": "MR",
+    "circonscription": "Tournai-Ath-Mouscron",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "place Verte, 8",
+      "dep_cp": "7910",
+      "dep_localite": "ANVAING"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/Jean-Luc-Crucke-63026042352/",
+      "dep_twitter": "https://twitter.com/cruckejeanluc",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "jl.crucke@parlement-wallonie.be",
+    "site": "http://jlcrucke.be/",
+    "siege": "D034"
+  },
+  {
+    "id": "WaB-20",
+    "name": "deCoster-Bauchau",
+    "surname": "Sybille",
+    "parti": "MR",
+    "circonscription": "Nivelles",
+    "fonction": "",
+    "sexe": "F",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "rue de la Croix, 9",
+      "dep_cp": "1390",
+      "dep_localite": "GREZ-DOICEAU"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/sybille.bauchau",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "s.decosterbauchau@parlement-wallonie.be",
+    "site": "http://www.sybilledecoster-bauchau.com",
+    "siege": "D055"
+  },
+  {
+    "id": "WaB-21",
+    "name": "deLamotte",
+    "surname": "Michel",
+    "parti": "Les Engagés",
+    "circonscription": "Liège",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "rue de l'Arbre Sainte-Barbe, 398",
+      "dep_cp": "4000",
+      "dep_localite": "LIEGE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/delamottemichel",
+      "dep_twitter": "https://twitter.com/micheldelamotte",
+      "dep_instagram": null
+    },
+    "tel": "0476.90.84.56",
+    "fax": null,
+    "email": "m.delamotte@parlement-wallonie.be",
+    "site": "www.micheldelamotte.be",
+    "siege": "D013"
+  },
+  {
+    "id": "WaB-23",
+    "name": "Delporte",
+    "surname": "Valérie",
+    "parti": "ECOLO",
+    "circonscription": "Namur",
+    "fonction": "Présidente de commission",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Sombreffe (Commune de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "432.4",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de police de SAMSOM",
+        "fonction": "Membre du conseil",
+        "remuneration": "121.95",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Présidente de commission",
+        "remuneration": "8 987,79",
+        "avantage": ""
+      },
+      {
+        "titre": "En chemin asbl",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "UCLouvain",
+        "fonction": "Employée en congé",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue de Wavre, 63",
+      "dep_cp": "5140",
+      "dep_localite": "SOMBREFFE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/valerie.delporte.50",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "v.delporte@parlement-wallonie.be",
+    "site": "https://ecolo.be/representant/valerie-delporte/",
+    "siege": "D019"
+  },
+  {
+    "id": "WaB-24",
+    "name": "Demeuse",
+    "surname": "Rodrigue",
+    "parti": "ECOLO",
+    "circonscription": "Huy-Waremme",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Huy (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "2 950,22",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre Hospitalier Régional de Huy",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Enodia",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénateur des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Président de commission",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Assemblée parlementaire de lOTAN",
+        "fonction": "Membre",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Barreau de Liège",
+        "fonction": "Avocat stagiaire",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Conférence des élus de Meuse-Condroz-Hesbaye asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Infor Jeunes Huy asbl",
+        "fonction": "Trésorier",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "avenue de Batta 12/51",
+      "dep_cp": "4500",
+      "dep_localite": "HUY"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/rodrigue.demeuse",
+      "dep_twitter": "https://twitter.com/RDemeuse",
+      "dep_instagram": "https://www.instagram.com/rodriguedemeuse"
+    },
+    "tel": null,
+    "fax": null,
+    "email": "r.demeuse@parlement-wallonie.be",
+    "site": "http://rodriguedemeuse.be",
+    "siege": "D017"
+  },
+  {
+    "id": "WaB-25",
+    "name": "Demotte",
+    "surname": "Rudy",
+    "parti": "PS",
+    "circonscription": "Tournai-Ath-Mouscron",
+    "fonction": "Président du Parlement",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "vieux Chemin de Bouvignes, 79",
+      "dep_cp": "7500",
+      "dep_localite": "TOURNAI"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/rudy.demotte",
+      "dep_twitter": "https://twitter.com/demotte",
+      "dep_instagram": null
+    },
+    "tel": "02.506.38.35",
+    "fax": null,
+    "email": "r.demotte@parlement-wallonie.be",
+    "site": null,
+    "siege": "D045"
+  },
+  {
+    "id": "WaB-26",
+    "name": "Desquesnes",
+    "surname": "François",
+    "parti": "cdH",
+    "circonscription": "Soignies-La Louvière",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Soignies (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "2 375,08",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Président de groupe",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement Benelux",
+        "fonction": "Député suppléant",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Action Solidaire asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Communauté Urbaine du Centre asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Les Ecoles libres de Soignies-Carrières asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Pirouline – Pause Cartable asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "chemin des Fontaines, 3",
+      "dep_cp": "7061",
+      "dep_localite": "CASTEAU"
+    },
+    "rs": {
+      "dep_facebook": "https://facebook.com/francois.desquesnes",
+      "dep_twitter": "https://twitter.com/DESQUESNESF",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "f.desquesnes@parlement-wallonie.be",
+    "site": "http://www.desquesnes.be",
+    "siege": "D035"
+  },
+  {
+    "id": "WaB-27",
+    "name": "Devin",
+    "surname": "Laurent",
+    "parti": "PS",
+    "circonscription": "Soignies-La Louvière",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Binche (Ville de)",
+        "fonction": "Bourgmestre",
+        "remuneration": "40 085,52",
+        "avantage": ""
+      },
+      {
+        "titre": "Communauté Urbaine du Centre asbl",
+        "fonction": "Président",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de police Anderlues-Binche",
+        "fonction": "Président",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de secours Hainaut Centre",
+        "fonction": "Membre du collège",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Membre du Bureau",
+        "remuneration": "8 987,79",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Président de groupe",
+        "remuneration": "8 987,79",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue des Boulois, 111",
+      "dep_cp": "7134",
+      "dep_localite": "LEVAL"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": "064.23.05.03",
+    "fax": null,
+    "email": "l.devin@parlement-wallonie.be",
+    "site": "http://www.laurentdevin.be",
+    "siege": "D048"
+  },
+  {
+    "id": "WaB-28",
+    "name": "DiMattia",
+    "surname": "Michel",
+    "parti": "PS",
+    "circonscription": "Soignies-La Louvière",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "rue de la Hestre, 189",
+      "dep_cp": "7100",
+      "dep_localite": "LA LOUVIERE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/michel.dimattia.9",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "0470.20.57.98",
+    "fax": null,
+    "email": "m.dimattia@parlement-wallonie.be",
+    "site": null,
+    "siege": "D062"
+  },
+  {
+    "id": "WaB-29",
+    "name": "Disabato",
+    "surname": "Manu",
+    "parti": "ECOLO",
+    "circonscription": "Mons",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Frameries (Commune de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "1 495,00",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Membre du Bureau",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Caisse de retraite des Députés wallons asbl",
+        "fonction": "Membre du conseil d’administration",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Comité des Régions",
+        "fonction": "Membre",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Ecolo Hainaut",
+        "fonction": "Co-président du Bureau provincial",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "route de Quaregnon, 8",
+      "dep_cp": "7080",
+      "dep_localite": "FRAMERIES"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/manu.disabato.5",
+      "dep_twitter": "https://twitter.com/manudisabato",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "m.disabato@parlement-wallonie.be",
+    "site": null,
+    "siege": "D039"
+  },
+  {
+    "id": "WaB-30",
+    "name": "Dispa",
+    "surname": "Benoît",
+    "parti": "cdH",
+    "circonscription": "Namur",
+    "fonction": "Président de groupe politique",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Gembloux (Ville de)",
+        "fonction": "Bourgmestre",
+        "remuneration": "56 714,16",
+        "avantage": ""
+      },
+      {
+        "titre": "ATRIUM57, Centre culturel de Gembloux asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Gembloux Agro-Bio Tech/ULiège",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Intercommunale de Mutualisation Informatique et Organisationnelle (iMio) scrl",
+        "fonction": "Administrateur",
+        "remuneration": "375",
+        "avantage": ""
+      },
+      {
+        "titre": "Union des Villes et Communes de Wallonie (UVCW)",
+        "fonction": "Administrateur",
+        "remuneration": "1 403,76",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de police Orneau-Mehaigne",
+        "fonction": "Président du collège et du conseil",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de secours NAGE",
+        "fonction": "Membre du collège et du conseil",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Cour des Comptes",
+        "fonction": "Premier Auditeur en congé",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Imagin’AMO asbl",
+        "fonction": "Président du conseil d’administration",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue du Paradis, 20",
+      "dep_cp": "5030",
+      "dep_localite": "GEMBLOUX"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/DispaBenoit",
+      "dep_twitter": "https://twitter.com/BenoitDispa",
+      "dep_instagram": null
+    },
+    "tel": "081.62.63.54",
+    "fax": null,
+    "email": "b.dispa@parlement-wallonie.be",
+    "site": null,
+    "siege": "D037"
+  },
+  {
+    "id": "WaB-31",
+    "name": "Dodrimont",
+    "surname": "Philippe",
+    "parti": "MR",
+    "circonscription": "Liège",
+    "fonction": "2ème Secrétaire du Parlement",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Aywaille (Commune d’)",
+        "fonction": "Conseiller communal",
+        "remuneration": "1 302,47",
+        "avantage": ""
+      },
+      {
+        "titre": "Groupement Régional Economique Ourthe-Vesdre-Amblève (Greova) asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Membre du Bureau",
+        "remuneration": "8 987,79",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénateur des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "ASTRID sa",
+        "fonction": "Administrateur",
+        "remuneration": "2 805,00",
+        "avantage": ""
+      },
+      {
+        "titre": "INASTI",
+        "fonction": "Président",
+        "remuneration": "2 478,94",
+        "avantage": ""
+      },
+      {
+        "titre": "Action Libérale Liégeoise (A.L.L.) asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Fédération MR d’arrondissement de Liège",
+        "fonction": "Président du conseil d’administration",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Liège Académie Basket (LAB) asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Royal Aywaille Football Club asbl",
+        "fonction": "Président",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "hameau de Stoqueu, 130",
+      "dep_cp": "4920",
+      "dep_localite": "AYWAILLE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/dodrimont.philippe",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "04.22.33.308",
+    "fax": null,
+    "email": "p.dodrimont@parlement-wallonie.be",
+    "site": null,
+    "siege": "D052"
+  },
+  {
+    "id": "WaB-32",
+    "name": "Douette",
+    "surname": "Manu",
+    "parti": "MR",
+    "circonscription": "Huy-Waremme",
+    "fonction": "Vice-président de commission",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Hannut (Commune de)",
+        "fonction": "Bourgmestre",
+        "remuneration": "60 047,52",
+        "avantage": ""
+      },
+      {
+        "titre": "L’Eveil asbl",
+        "fonction": "Président",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Liège Europe Métropole asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Union des Villes et Communes de Wallonie (UVCW)",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de police Hesbaye-Ouest",
+        "fonction": "Membre du collège",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de secours Hesbaye",
+        "fonction": "Président",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Action Libérale Liégeoise (A.L.L.) asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Conférence des élus de Meuse-Condroz-Hesbaye asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Douette Luc sprl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Groupe MR du Parlement wallon asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Infor Jeunes Hannut asbl",
+        "fonction": "Président",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Les Amis du Fayimi asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Joseph Kinnart, 2",
+      "dep_cp": "4280",
+      "dep_localite": "HANNUT"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/douettemanu/",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "019.51.93.94",
+    "fax": null,
+    "email": "m.douette@parlement-wallonie.be",
+    "site": "http://www.manudouette.be/",
+    "siege": "D070"
+  },
+  {
+    "id": "WaB-33",
+    "name": "Dupont",
+    "surname": "Jori",
+    "parti": "PTB",
+    "circonscription": "Tournai-Ath-Mouscron",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "Bas chemin, 11",
+      "dep_cp": "7321",
+      "dep_localite": "BLATON"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/JoriDupont",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "0487.87.13.58",
+    "fax": null,
+    "email": "j.dupont@parlement-wallonie.be",
+    "site": null,
+    "siege": "D009"
+  },
+  {
+    "id": "WaB-34",
+    "name": "Durenne",
+    "surname": "Véronique",
+    "parti": "MR",
+    "circonscription": "Tournai-Ath-Mouscron",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Celles (Commune de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "261.75",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénatrice des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Conseil de développement de Wallonie picarde",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Eurométropole Lille-Kortrijk-Tournai",
+        "fonction": "Membre du Bureau",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Bacotterie, 5",
+      "dep_cp": "7760",
+      "dep_localite": "MOLENBAIX"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/veronique.durenne",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "069.45.62.94",
+    "fax": "069.45.56.84",
+    "email": "v.durenne@parlement-wallonie.be",
+    "site": "http://www.mrpw.be/deputes/durenne-veronique",
+    "siege": "D067"
+  },
+  {
+    "id": "WaB-36",
+    "name": "Evrard",
+    "surname": "Yves",
+    "parti": "MR",
+    "circonscription": "Arlon-Marche-Bastogne-Neufchâteau-Virton",
+    "fonction": "Vice-président de commission",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "route des Hès, 2",
+      "dep_cp": "6840",
+      "dep_localite": "NEUFCHATEAU"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/yves.evrard.9",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "0473.79.44.20",
+    "fax": null,
+    "email": "y.evrard@parlement-wallonie.be",
+    "site": null,
+    "siege": "D065"
+  },
+  {
+    "id": "WaB-37",
+    "name": "Florent",
+    "surname": "Jean-Philippe",
+    "parti": "ECOLO",
+    "circonscription": "Arlon-Marche-Bastogne-Neufchâteau-Virton",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "Voie d'Orval, 14C",
+      "dep_cp": "6810",
+      "dep_localite": "CHINY"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/JeanPhiFlorent",
+      "dep_twitter": "https://twitter.com/jpflorent",
+      "dep_instagram": "https://www.instagram.com/jp.florent"
+    },
+    "tel": null,
+    "fax": null,
+    "email": "jp.florent@parlement-wallonie.be",
+    "site": "http://www.jpflorent.be",
+    "siege": "D041"
+  },
+  {
+    "id": "WaB-38",
+    "name": "Fontaine",
+    "surname": "Eddy",
+    "parti": "PS",
+    "circonscription": "Dinant-Philippeville",
+    "fonction": "Vice-président de commission",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "rue de Rocroi, 45",
+      "dep_cp": "5660",
+      "dep_localite": "COUVIN"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/eddyfontainedepute",
+      "dep_twitter": "https://twitter.com/eddy_fontaine",
+      "dep_instagram": null
+    },
+    "tel": "060.34.68.61",
+    "fax": null,
+    "email": "e.fontaine@parlement-wallonie.be",
+    "site": "http://eddyfontaine.be",
+    "siege": "D003"
+  },
+  {
+    "id": "WaB-39",
+    "name": "Frédéric",
+    "surname": "André",
+    "parti": "PS",
+    "circonscription": "Verviers",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "rue de la Résistance, 64",
+      "dep_cp": "4910",
+      "dep_localite": "THEUX"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/andre.frederic.3",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "087.33.95.95",
+    "fax": null,
+    "email": "a.frederic@parlement-wallonie.be",
+    "site": "http://www.andrefrederic.be/",
+    "siege": "D001"
+  },
+  {
+    "id": "WaB-41",
+    "name": "Gahouchi",
+    "surname": "Latifa",
+    "parti": "PS",
+    "circonscription": "Charleroi-Thuin",
+    "fonction": "Présidente de commission",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Charleroi (Ville de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "2 886,00",
+        "avantage": ""
+      },
+      {
+        "titre": "Le Bois du Cazier asbl",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Présidente de commission",
+        "remuneration": "8 987,79",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénatrice des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Présidente de groupe",
+        "remuneration": "7 343,07",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Présidente de commission",
+        "remuneration": "1 958,19",
+        "avantage": ""
+      },
+      {
+        "titre": "Caisse de retraite des Sénateurs asbl",
+        "fonction": "Membre du conseil d’administration",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Fondation socialiste d'Information et de Gestion (FONSOC) asbl",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Institut Emile Vandervelde asbl",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Solidaris Mutualité Socialiste du Centre, Charleroi et Soignies",
+        "fonction": "Administratrice",
+        "remuneration": "Rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "ruelle Martin, 30",
+      "dep_cp": "6042",
+      "dep_localite": "LODELINSART"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/latigahouchi",
+      "dep_twitter": "https://twitter.com/latifagahouchi",
+      "dep_instagram": null
+    },
+    "tel": "0477.63.68.49",
+    "fax": "071.12.28.31",
+    "email": "l.gahouchi@parlement-wallonie.be",
+    "site": "http://www.gahouchi.be",
+    "siege": "D024"
+  },
+  {
+    "id": "WaB-42",
+    "name": "Galant",
+    "surname": "Jacqueline",
+    "parti": "MR",
+    "circonscription": "Mons",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Jurbise (Commune de)",
+        "fonction": "Bourgmestre",
+        "remuneration": "55 542,04",
+        "avantage": ""
+      },
+      {
+        "titre": "Agence locale pour lemploi (ALE) de Jurbise",
+        "fonction": "Présidente",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Commission consultative communale daménagement du territoire et de mobilité (CCATM)",
+        "fonction": "Membre suppléante",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Commission Paritaire Locale (COPALOC)",
+        "fonction": "Membre",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "ORES ASSETS",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Organe de Consultation du Bassin de Mobilité du Hainaut (OCBM)",
+        "fonction": "Membre",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "SWDE - Conseil d’exploitation",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Union des Villes et Communes de Wallonie (UVCW)",
+        "fonction": "Administratrice",
+        "remuneration": "386.49",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de police Sylle et Dendre",
+        "fonction": "Membre du collège",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de secours Hainaut Centre",
+        "fonction": "Membre du collège",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Membre du Bureau",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Caisse de retraite des Députés wallons asbl",
+        "fonction": "Membre du conseil d’administration",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Fédération MR de l’arrondissement de Mons-Borinage",
+        "fonction": "Présidente",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Fédération MR provinciale du Hainaut",
+        "fonction": "Vice-Présidente",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue de Sirault, 4",
+      "dep_cp": "7050",
+      "dep_localite": "JURBISE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/jacqueline.galant",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "065.37.74.21",
+    "fax": "065.37.74.37",
+    "email": "jacqueline.galant@commune-jurbise.be",
+    "site": "https://www.jgalant.be",
+    "siege": "D051"
+  },
+  {
+    "id": "WaB-43",
+    "name": "Gardier",
+    "surname": "Charles",
+    "parti": "MR",
+    "circonscription": "Verviers",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Spa (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "1 190,08",
+        "avantage": ""
+      },
+      {
+        "titre": "Aqualis scrl",
+        "fonction": "Membre de lassemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Fédération Thermale de Belgique asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "INTRADEL",
+        "fonction": "Membre de lassemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Maison des Jeunes et de la Culture de Spa asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Office du tourisme de Spa",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Président de commission",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Belgomania asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Rémunéré",
+        "avantage": "Oui"
+      },
+      {
+        "titre": "Chahu Communication sprl",
+        "fonction": "Gérant",
+        "remuneration": "Rémunéré",
+        "avantage": "Oui"
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "chemin Sous-Bois, 2",
+      "dep_cp": "4900",
+      "dep_localite": "SPA"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/gardiercharles",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "c.gardier@parlement-wallonie.be",
+    "site": "http://www.gardier.be",
+    "siege": "D066"
+  },
+  {
+    "id": "WaB-44",
+    "name": "Goffinet",
+    "surname": "Anne-Catherine",
+    "parti": "cdH",
+    "circonscription": "Arlon-Marche-Bastogne-Neufchâteau-Virton",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Arlon (Ville d’)",
+        "fonction": "Conseillère communale",
+        "remuneration": "1 375,00",
+        "avantage": ""
+      },
+      {
+        "titre": "Arlon Centre-Ville asbl",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "IDELUX Eau",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "IDELUX Environnement",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénatrice des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Cercle Européen Pierre Werner asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Royale Confrérie du Maitrank d'Arlon asbl",
+        "fonction": "Membre de lassemblée générale",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue du Vallon, 61",
+      "dep_cp": "6700",
+      "dep_localite": "ARLON"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/annecatherine1.goffinet",
+      "dep_twitter": "https://twitter.com/AcGoffinet",
+      "dep_instagram": null
+    },
+    "tel": "063.60.28.79",
+    "fax": null,
+    "email": "goffinet.ac.deputee@gmail.com",
+    "site": null,
+    "siege": "D011"
+  },
+  {
+    "id": "WaB-47",
+    "name": "Grovonius",
+    "surname": "Gwenaëlle",
+    "parti": "PS",
+    "circonscription": "Namur",
+    "fonction": "Présidente de commission",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "avenue Gouverneur Bovesse 103-106",
+      "dep_cp": "5100",
+      "dep_localite": "JAMBES"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/gwengrovonius",
+      "dep_twitter": "https://twitter.com/Gwengrovonius",
+      "dep_instagram": "https://www.instagram.com/gwenaellegrovonius"
+    },
+    "tel": null,
+    "fax": null,
+    "email": "gwenaelle@grovonius.be",
+    "site": "http://www.gwenaellegrovonius.be",
+    "siege": "D060"
+  },
+  {
+    "id": "WaB-48",
+    "name": "Hardy",
+    "surname": "Maxime",
+    "parti": "PS",
+    "circonscription": "Charleroi-Thuin",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Charleroi (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "2 613,00",
+        "avantage": ""
+      },
+      {
+        "titre": "Le Bois du Cazier asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Quai 10 asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Relais social de Charleroi",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Gestion et Financement de la Fédération socialiste de Charleroi (GEFI) asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Présence et Action Culturelles (PAC) asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Major Servais, 33",
+      "dep_cp": "6001",
+      "dep_localite": "MARCINELLE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/Maximardy",
+      "dep_twitter": "https://twitter.com/maximardy",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "m.hardy@parlement-wallonie.be",
+    "site": null,
+    "siege": "D022"
+  },
+  {
+    "id": "WaB-49",
+    "name": "Hazée",
+    "surname": "Stéphane",
+    "parti": "ECOLO",
+    "circonscription": "Namur",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "avenue de la Pairelle, 44",
+      "dep_cp": "5000",
+      "dep_localite": "NAMUR"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/stephane.hazee",
+      "dep_twitter": "https://twitter.com/steph_le_vert",
+      "dep_instagram": null
+    },
+    "tel": "081.25.94.64",
+    "fax": null,
+    "email": "s.hazee@parlement-wallonie.be",
+    "site": "https://www.parlement-wallonie.be/pwpages?p=composition_dep_det&id=1133",
+    "siege": "D043"
+  },
+  {
+    "id": "WaB-50",
+    "name": "Hermant",
+    "surname": "Antoine",
+    "parti": "PTB",
+    "circonscription": "Soignies-La Louvière",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "La Louvière (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "2 036,65",
+        "avantage": ""
+      },
+      {
+        "titre": "Central asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "CentrHabitat scrl",
+        "fonction": "Administrateur et membre de lassembléegénérale",
+        "remuneration": "665.94",
+        "avantage": ""
+      },
+      {
+        "titre": "Commission de rénovation urbaine de La Louvière",
+        "fonction": "Membre",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Communauté Urbaine du Centre asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "IDEA",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "IGRETEC",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Institut Provincial de Formation du Hainaut (IFPH)",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Intercommunale de Mutualisation Informatique et Organisationnelle (iMio) scrl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Le Point d’eau",
+        "fonction": "Administrateur observateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Régie Communale Autonome",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Président de commission",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénateur des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Président de groupe",
+        "remuneration": "7 343,07",
+        "avantage": ""
+      },
+      {
+        "titre": "Caisse de retraite des Sénateurs asbl",
+        "fonction": "Membre du conseil d’administration",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Médecine pour le Peuple - La Louvière asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue de la Fraternité, 24",
+      "dep_cp": "7100",
+      "dep_localite": "LA LOUVIERE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/antoine.hermant.94",
+      "dep_twitter": "https://twitter.com/ahermant",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "a.hermant@parlement-wallonie.be",
+    "site": null,
+    "siege": "D010"
+  },
+  {
+    "id": "WaB-51",
+    "name": "Heyvaert",
+    "surname": "Laurent",
+    "parti": "ECOLO",
+    "circonscription": "Nivelles",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "rue Saint-Jean, 172",
+      "dep_cp": "1480",
+      "dep_localite": "CLABECQ"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/lheyvaert1",
+      "dep_twitter": "https://twitter.com/heyvaertlaurent",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "l.heyvaert@parlement-wallonie.be",
+    "site": "https://laurentheyvaert.ecolo.be/",
+    "siege": "D021"
+  },
+  {
+    "id": "WaB-52",
+    "name": "Janssen",
+    "surname": "Nicolas",
+    "parti": "MR",
+    "circonscription": "Nivelles",
+    "fonction": "Vice-président de commission",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "La Hulpe (Commune de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "1 440,00",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre Régional d'Intégration du Brabant wallon (CRIBW) asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Contrat de rivière Dyle-Gette asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Orchestre Royal de Chambre de Wallonie",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "CAP Innove asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Financière de Tubize sa",
+        "fonction": "Administrateur",
+        "remuneration": "Rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Immobilière du Brabant sa",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Perma-Projects sprl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Union Financière Boël sa",
+        "fonction": "Administrateur",
+        "remuneration": "Rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Université Libre de Bruxelles",
+        "fonction": "Maître d’enseignement",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "avenue Ernest Solvay, 108",
+      "dep_cp": "1310",
+      "dep_localite": "LA HULPE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/nicolasjanssen007",
+      "dep_twitter": "https://twitter.com/NicolasJanssen6",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "n.janssen@parlement-wallonie.be",
+    "site": "http://www.nicolasjanssen.be",
+    "siege": "D064"
+  },
+  {
+    "id": "WaB-53",
+    "name": "Kapompole",
+    "surname": "Joëlle",
+    "parti": "PS",
+    "circonscription": "Mons",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "avenue d'Hyon, 51 bte 0.4",
+      "dep_cp": "7000",
+      "dep_localite": "MONS"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/kapompole",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "0498.19.43.28",
+    "fax": null,
+    "email": "j.kapompole@parlement-wallonie.be",
+    "site": "http://kapompole.be",
+    "siege": "D026"
+  },
+  {
+    "id": "WaB-54",
+    "name": "Kelleter",
+    "surname": "Anne",
+    "parti": "ECOLO",
+    "circonscription": "Verviers",
+    "fonction": "",
+    "sexe": "F",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "Bergstraße 123A",
+      "dep_cp": "4710",
+      "dep_localite": "LONTZEN"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": null,
+    "fax": null,
+    "email": "a.kelleter@parlement-wallonie.be",
+    "site": null,
+    "siege": "D040"
+  },
+  {
+    "id": "WaB-58",
+    "name": "Laffut",
+    "surname": "Anne",
+    "parti": "MR",
+    "circonscription": "Arlon-Marche-Bastogne-Neufchâteau-Virton",
+    "fonction": "Vice-présidente de commission",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Libin (Commune de)",
+        "fonction": "Bourgmestre",
+        "remuneration": "54 554,48",
+        "avantage": ""
+      },
+      {
+        "titre": "Comité de concertation commune-CPAS",
+        "fonction": "Présidente",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Commission Communale de l’Accueil asbl",
+        "fonction": "Membre",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Commission locale de Développement rural (CLDR)",
+        "fonction": "Présidente",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Commission Paritaire Locale (COPALOC)",
+        "fonction": "Présidente",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Euro Space Center Training asbl",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "GAL Nov’Ardenne asbl",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Libin Sport asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Plateforme Bois-Energie",
+        "fonction": "Membre du comité de pilotage",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Union des Villes et Communes de Wallonie (UVCW)",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Action Réformatrice Province de Luxembourg asbl",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Fondation Rurale de Wallonie",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Groupe MR du Parlement de la Communauté française asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Groupe MR du Parlement wallon asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "Rhenauterme, 54",
+      "dep_cp": "6890",
+      "dep_localite": "OCHAMPS"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/AnneLaffut/?modal=admin_todo_tour",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "061.26.08.11",
+    "fax": null,
+    "email": "a.laffut@parlement-wallonie.be",
+    "site": "https://www.annelaffut.be",
+    "siege": "D069"
+  },
+  {
+    "id": "WaB-59",
+    "name": "Laruelle",
+    "surname": "Sabine",
+    "parti": "MR",
+    "circonscription": "Namur",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "rue Chapelle Dieu, 49",
+      "dep_cp": "5030",
+      "dep_localite": "GEMBLOUX"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/SabineLaruelleNamur/",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "sabine.laruelle@slaruelle.be",
+    "site": null,
+    "siege": "D053"
+  },
+  {
+    "id": "WaB-60",
+    "name": "Legasse",
+    "surname": "Dimitri",
+    "parti": "PS",
+    "circonscription": "Nivelles",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Rebecq (Commune de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "2 019,40",
+        "avantage": ""
+      },
+      {
+        "titre": "Agence Immobilière Sociale (AIS) du Brabant wallon asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Crédit social sa",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sportissimo asbl",
+        "fonction": "Président",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Président de commission",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Fédération PS du Brabant wallon",
+        "fonction": "Président",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Les Travailleurs Réunis scrl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "TEC Brabant wallon",
+        "fonction": "Employé en congé",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Union Socialiste Communale (USC) de Rebecq",
+        "fonction": "Membre",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue du Montgras, 67",
+      "dep_cp": "1430",
+      "dep_localite": "REBECQ"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/dimitri.legasse.7",
+      "dep_twitter": "https://twitter.com/DimitriLegasse",
+      "dep_instagram": null
+    },
+    "tel": "067.34.22.35",
+    "fax": null,
+    "email": "d.legasse@parlement-wallonie.be",
+    "site": "http://www.dimitrilegasse.be",
+    "siege": "D023"
+  },
+  {
+    "id": "WaB-61",
+    "name": "Lekane",
+    "surname": "Laure",
+    "parti": "PTB",
+    "circonscription": "Liège",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Oupeye (Commune d’)",
+        "fonction": "Conseillère communale",
+        "remuneration": "1 204,00",
+        "avantage": ""
+      },
+      {
+        "titre": "Basse-Meuse Développement asbl",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénatrice des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Mathieu Laensbergh, 20",
+      "dep_cp": "4000",
+      "dep_localite": "LIEGE"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": null,
+    "fax": null,
+    "email": "l.lekane@parlement-wallonie.be",
+    "site": null,
+    "siege": "D007"
+  },
+  {
+    "id": "WaB-62",
+    "name": "Lenzini",
+    "surname": "Mauro",
+    "parti": "PS",
+    "circonscription": "Liège",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "INTRADEL",
+        "fonction": "Administrateur",
+        "remuneration": "1 749,74",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Fédération PS de Liège asbl",
+        "fonction": "Membre du comité exécutif",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Service Fédéral des Pensions",
+        "fonction": "Pensionné",
+        "remuneration": "Rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue François Bovesse, 31",
+      "dep_cp": "4680",
+      "dep_localite": "OUPEYE"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": null,
+    "fax": null,
+    "email": "m.lenzini@parlement-wallonie.be",
+    "site": null,
+    "siege": "D057"
+  },
+  {
+    "id": "WaB-63",
+    "name": "Léonard",
+    "surname": "Laurent",
+    "parti": "PS",
+    "circonscription": "Liège",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "avenue du Fort, 224",
+      "dep_cp": "4400 ",
+      "dep_localite": "FLEMALLE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/laurentleonard.deputewallon",
+      "dep_twitter": "https://twitter.com/Laurentleonard7",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "contact@laurentleonard.be",
+    "site": "http://www.laurentleonard.be",
+    "siege": "D002"
+  },
+  {
+    "id": "WaB-64",
+    "name": "Lepine",
+    "surname": "Jean-Pierre",
+    "parti": "PS",
+    "circonscription": "Mons",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Quaregnon (Commune de)",
+        "fonction": "Bourgmestre",
+        "remuneration": "24 020,01",
+        "avantage": ""
+      },
+      {
+        "titre": "Quaregnon (Commune de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "1 273,50",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de police Boraine",
+        "fonction": "Membre du collège",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de secours Hainaut Centre",
+        "fonction": "Membre du conseil",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Président de commission",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement Benelux",
+        "fonction": "Député suppléant",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Le Cerami asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Royale Pédale Quaregnonnaise asbl",
+        "fonction": "Président",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "place Nicolas Jenart, 19",
+      "dep_cp": "7390",
+      "dep_localite": "QUAREGNON"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/jeanpierre.lepine.5",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "065.46.86.31",
+    "fax": null,
+    "email": "jp.lepine@parlement-wallonie.be",
+    "site": "https://www.jplepine.com",
+    "siege": "D004"
+  },
+  {
+    "id": "WaB-65",
+    "name": "Liradelfo",
+    "surname": "Julien",
+    "parti": "PTB",
+    "circonscription": "Liège",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Herstal (Commune de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "939.94",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre Hospitalier Bois de l’Abbaye",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre Hospitalier Régional de la Citadelle",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Médecine pour le Peuple - Herstal asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Parti du Travail de Belgique Herstal",
+        "fonction": "Président",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Emile Muraille, 286",
+      "dep_cp": "4040",
+      "dep_localite": "HERSTAL"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": "0491.64.00.54",
+    "fax": null,
+    "email": "j.liradelfo@parlement-wallonie.be",
+    "site": null,
+    "siege": "D031"
+  },
+  {
+    "id": "WaB-66",
+    "name": "Lomba",
+    "surname": "Eric",
+    "parti": "PS",
+    "circonscription": "Huy-Waremme",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Marchin (Commune de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "1 236,10",
+        "avantage": ""
+      },
+      {
+        "titre": "Ecetia scrl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "GAL Pays des Condruses asbl",
+        "fonction": "Président",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Intercommunale de Mutualisation Informatique et Organisationnelle (iMio) scrl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Liège Europe Métropole asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Meuse Condroz Hesbaye asbl",
+        "fonction": "Président",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Neomansio scrl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de police du Condroz",
+        "fonction": "Membre du conseil",
+        "remuneration": "129.46",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "98 332,79",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Agence Immobilière Sociale (AIS) du Pays de Huy asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Meuse Condroz Logement scrl",
+        "fonction": "Administrateur",
+        "remuneration": "1 697,54",
+        "avantage": ""
+      },
+      {
+        "titre": "OYOU asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Conférence des élus de Meuse-Condroz-Hesbaye asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Devenirs asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Fédération PS de Huy-Waremme",
+        "fonction": "Vice-Président du conseil d'administration",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Maison des Solidarités scrl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "PS-IC Marchin-Vyle asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Service Public de Wallonie",
+        "fonction": "Fonctionnaire",
+        "remuneration": "Rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Thilette et Camille Faïno - Solidarités asbl",
+        "fonction": "Vice-Président du conseil d'administration",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Grand-Marchin, 42",
+      "dep_cp": "4570",
+      "dep_localite": "MARCHIN"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/EricLombaPS",
+      "dep_twitter": "https://twitter.com/EricLomba",
+      "dep_instagram": "https://www.instagram.com/eric.lomba"
+    },
+    "tel": null,
+    "fax": null,
+    "email": "e.lomba@parlement-wallonie.be",
+    "site": "https://www.ericlomba.be",
+    "siege": "D025"
+  },
+  {
+    "id": "WaB-67",
+    "name": "Luperto",
+    "surname": "Jean-Charles",
+    "parti": "PS",
+    "circonscription": "Namur",
+    "fonction": "Vice-président de commission",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Sambreville (Commune de)",
+        "fonction": "Bourgmestre",
+        "remuneration": "62 642,50",
+        "avantage": "84"
+      },
+      {
+        "titre": "Association Intercommunale de Santé de la Basse-Sambre (AISBS)",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Association pouvoirs publics « CHR Sambre et Meuse »",
+        "fonction": "Administrateur",
+        "remuneration": "863.79",
+        "avantage": ""
+      },
+      {
+        "titre": "Sambr’Habitat scrl",
+        "fonction": "Administrateur",
+        "remuneration": "1 325,94",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de police SAMSOM",
+        "fonction": "Président du conseil et du collège",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "103 492,98",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "FESONAM asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Santé Sambre et Meuse asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Solidaris - Province de Namur asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Union Socialiste Communale (USC) de Sambreville",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "chaussée de Charleroi, 7",
+      "dep_cp": "5060",
+      "dep_localite": "SAMBREVILLE"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": "071.26.02.02",
+    "fax": "071.26.02.34",
+    "email": "jc.luperto@parlement-wallonie.be",
+    "site": "http://www.luperto.be",
+    "siege": "D049"
+  },
+  {
+    "id": "WaB-69",
+    "name": "Marcourt",
+    "surname": "Jean-Claude",
+    "parti": "PS",
+    "circonscription": "Liège",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Liège (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "3 164,30",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Président",
+        "remuneration": "62 415,99",
+        "avantage": "4 798,40"
+      },
+      {
+        "titre": "Caisse de retraite des Députés wallons asbl",
+        "fonction": "Membre du conseil d’administration",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Fonds Léon Fredericq asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "avenue Blonden, 54/41",
+      "dep_cp": "4000",
+      "dep_localite": "LIEGE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/JCMarcourtOfficiel",
+      "dep_twitter": "https://twitter.com/jcmarcourt",
+      "dep_instagram": "https://www.instagram.com/jcmarcourt"
+    },
+    "tel": null,
+    "fax": null,
+    "email": "jc.marcourt@parlement-wallonie.be",
+    "site": "https://www.jeanclaudemarcourt.be",
+    "siege": "D046"
+  },
+  {
+    "id": "WaB-70",
+    "name": "Maroy",
+    "surname": "Olivier",
+    "parti": "MR",
+    "circonscription": "Nivelles",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Orp-Jauche (Commune d’)",
+        "fonction": "Conseiller communal",
+        "remuneration": "2 659,54",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre culturel de Jodoigne & Orp-Jauche asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre culturel du Brabant wallon (CCBW) asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "GAL Culturalité en Hesbaye brabançonne asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Immobilière Publique du Centre et de l’Est du Brabant Wallon (IPBW)",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Maison du Tourisme du Brabant wallon asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "TVCom",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Président de commission",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Action Libérale Brabançonne Wallonne (ALBW) asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Tiège de Perwez, 40",
+      "dep_cp": "1350",
+      "dep_localite": "ORP-JAUCHE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/olivier.maroy",
+      "dep_twitter": "https://twitter.com/@oliviermaroy",
+      "dep_instagram": null
+    },
+    "tel": "081.26.16.24",
+    "fax": null,
+    "email": "o.maroy@parlement-wallonie.be",
+    "site": "http://www.oliviermaroy.be",
+    "siege": "D068"
+  },
+  {
+    "id": "WaB-71",
+    "name": "Matagne",
+    "surname": "Julien",
+    "parti": "cdH",
+    "circonscription": "Charleroi-Thuin",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Gerpinnes (Commune de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "2 014,67",
+        "avantage": ""
+      },
+      {
+        "titre": "Commission locale de Développement rural (CLDR)",
+        "fonction": "Membre",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Holding communal sa (en liquidation)",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "IGRETEC",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Intercommunale pure d’électricité, de gaz et de télécommunication (IDEFIN) scrl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "MOBILESEM asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "ORES",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "TEC Charleroi",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Tibi scrl - Intercommunale de gestion intégrée des déchets",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "Grand'Rue, 7",
+      "dep_cp": "6530",
+      "dep_localite": "THUIN"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": "071.70.07.24",
+    "fax": null,
+    "email": "j.matagne@parlement-wallonie.be",
+    "site": null,
+    "siege": "D012"
+  },
+  {
+    "id": "WaB-72",
+    "name": "Mathieux",
+    "surname": "Françoise",
+    "parti": "MR",
+    "circonscription": "Dinant-Philippeville",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Couvin (Ville de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "1 734,18",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de police des Trois Vallées",
+        "fonction": "Membre du conseil",
+        "remuneration": "400",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Indépendante",
+        "fonction": "Architecte",
+        "remuneration": "Rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "la Ravalagne, 4",
+      "dep_cp": "5660",
+      "dep_localite": "COUVIN"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": "060.34.72.40",
+    "fax": null,
+    "email": "f.mathieux@parlement-wallonie.be",
+    "site": null,
+    "siege": "D075"
+  },
+  {
+    "id": "WaB-7",
+    "name": "Mauel",
+    "surname": "Christine",
+    "parti": "MR",
+    "circonscription": "Verviers",
+    "fonction": "",
+    "sexe": "F",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "Flög, 122",
+      "dep_cp": "4730",
+      "dep_localite": "RAEREN"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": "0496.16.21.54",
+    "fax": null,
+    "email": "c.mauel@parlement-wallonie.be",
+    "site": null,
+    "siege": "D072"
+  },
+  {
+    "id": "WaB-10",
+    "name": "Mengoni",
+    "surname": "Sophie",
+    "parti": "PS",
+    "circonscription": "Charleroi-Thuin",
+    "fonction": "",
+    "sexe": "F",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "rue Pastur, 49",
+      "dep_cp": "6142",
+      "dep_localite": "LEERNES"
+    },
+    "rs": {
+      "dep_facebook": null,
+      "dep_twitter": "https://twitter.com/@SophieMengoni",
+      "dep_instagram": "https://instagram.com/sophiemengoni"
+    },
+    "tel": null,
+    "fax": null,
+    "email": "s.mengoni@parlement-wallonie.be",
+    "site": null,
+    "siege": "D063"
+  },
+  {
+    "id": "WaB-73",
+    "name": "Mugemangango",
+    "surname": "Germain",
+    "parti": "PTB",
+    "circonscription": "Charleroi-Thuin",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Charleroi (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "2 652,00",
+        "avantage": ""
+      },
+      {
+        "titre": "Régie Communale Autonome",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Président de groupe",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parti du Travail de Belgique",
+        "fonction": "Membre du Conseil national",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "avenue des Alliés 4/021",
+      "dep_cp": "6000",
+      "dep_localite": "CHARLEROI"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": "071.32.45.65",
+    "fax": null,
+    "email": "g.mugemangango@parlement-wallonie.be",
+    "site": null,
+    "siege": "D029"
+  },
+  {
+    "id": "WaB-75",
+    "name": "Nikolic",
+    "surname": "Diana",
+    "parti": "MR",
+    "circonscription": "Liège",
+    "fonction": "Présidente de groupe politique",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Liège (Ville de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "3 490,74",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre culturel de Chênée asbl",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre des Jeunes des Vennes asbl",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Liège Propreté et Environnement asbl",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Liège Sport asbl",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Maison de la Métallurgie et de l’Industrie de Liège asbl",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Présidente de commission",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Clic Jeunes asbl",
+        "fonction": "Présidente du conseil d'administration",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "La Maison Libérale asbl",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "vinâve d'Île, 9",
+      "dep_cp": "4000",
+      "dep_localite": "LIEGE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/DianaNikolicPage/",
+      "dep_twitter": "https://twitter.com/DianaNikolic",
+      "dep_instagram": null
+    },
+    "tel": "04.223.01.11",
+    "fax": null,
+    "email": "d.nikolic@parlement-wallonie.be",
+    "site": "http://www.diananikolic.be",
+    "siege": "D054"
+  },
+  {
+    "id": "WaB-77",
+    "name": "Pavet",
+    "surname": "Amandine",
+    "parti": "PTB",
+    "circonscription": "Charleroi-Thuin",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "rue du Brabant, 17",
+      "dep_cp": "7190",
+      "dep_localite": "ECAUSSINNES"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": null,
+    "fax": null,
+    "email": "a.pavet@parlement-wallonie.be",
+    "site": null,
+    "siege": "D028"
+  },
+  {
+    "id": "WaB-76",
+    "name": "Pecriaux",
+    "surname": "Sophie",
+    "parti": "PS",
+    "circonscription": "Soignies-La Louvière",
+    "fonction": "",
+    "sexe": "F",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "rue du Planty, 20",
+      "dep_cp": "7180",
+      "dep_localite": "SENEFFE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/sophie.pecriauxbis",
+      "dep_twitter": "https://twitter.com/pecriauxsophie",
+      "dep_instagram": "https://instagram.com/sophie_pecriaux"
+    },
+    "tel": "0489.00.70.70",
+    "fax": null,
+    "email": "s.pecriaux@parlement-wallonie.be",
+    "site": "http://www.sophiepecriaux.com",
+    "siege": "D047"
+  },
+  {
+    "id": "WaB-79",
+    "name": "Roberty",
+    "surname": "Sabine",
+    "parti": "PS",
+    "circonscription": "Liège",
+    "fonction": "Présidente de groupe politique",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Seraing (Ville de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "2 155,45",
+        "avantage": ""
+      },
+      {
+        "titre": "Interseniors scrl",
+        "fonction": "Administratrice",
+        "remuneration": "661.59",
+        "avantage": ""
+      },
+      {
+        "titre": "Régie Communale Autonome Eriges",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Tennis Club d’Ougrée",
+        "fonction": "Administratrice",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Union des Villes et Communes de Wallonie (UVCW)",
+        "fonction": "Administratrice",
+        "remuneration": "386.49",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de police Seraing-Neupré",
+        "fonction": "Membre du conseil",
+        "remuneration": "496",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Association de Parents pour la Protection des Enfants sur les Routes (APPER) -  Wallonie asbl",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Centrale de services à domicile (CSD) Province de Liège",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Solidaris Liège",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "boulevard des Arts, 90",
+      "dep_cp": "4102",
+      "dep_localite": "OUGREE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/sabine.roberty",
+      "dep_twitter": "https://www.twitter.com/@SabineRoberty",
+      "dep_instagram": null
+    },
+    "tel": "04.227.05.18",
+    "fax": null,
+    "email": "s.roberty@parlement-wallonie.be",
+    "site": "http://www.sabineroberty.be",
+    "siege": "D058"
+  },
+  {
+    "id": "WaB-80",
+    "name": "Ryckmans",
+    "surname": "Hélène",
+    "parti": "ECOLO",
+    "circonscription": "Nivelles",
+    "fonction": "Vice-présidente de commission",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Chastre (Commune de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "933.65",
+        "avantage": ""
+      },
+      {
+        "titre": "Intercommunale du Brabant wallon (in BW)",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Intercommunale sociale du Brabant wallon (ISBW)",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Union des Villes et Communes de Wallonie (UVCW)",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénatrice des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Caisse de retraite des Sénateurs asbl",
+        "fonction": "Membre du conseil d’administration",
+        "remuneration": "375",
+        "avantage": ""
+      },
+      {
+        "titre": "Ecolo",
+        "fonction": "Membre du Bureau politique",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Fonds André Ryckmans asbl",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Le Monde selon les Femmes asbl",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue de Corsal, 59",
+      "dep_cp": "1450",
+      "dep_localite": "CORTIL-NOIRMONT"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/HeleneRyckmansEcolo",
+      "dep_twitter": "https://twitter.com/heleneryckmans",
+      "dep_instagram": "https://www.instagram.com/ryckmanshelene"
+    },
+    "tel": null,
+    "fax": null,
+    "email": "h.ryckmans@parlement-wallonie.be",
+    "site": "https://ecolo.be/representant/helene-ryckmans",
+    "siege": "D042"
+  },
+  {
+    "id": "WaB-81",
+    "name": "Sahli",
+    "surname": "Mourad",
+    "parti": "PS",
+    "circonscription": "Charleroi-Thuin",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Chapelle-lez-Herlaimont (Commune de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "1 156,16",
+        "avantage": ""
+      },
+      {
+        "titre": "Centre culturel d'Herlaimont asbl",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "IDEA",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "IGRETEC",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "La Ruche Chapelloise slsp",
+        "fonction": "Administrateur",
+        "remuneration": "980",
+        "avantage": ""
+      },
+      {
+        "titre": "Sport et Délassement asbl",
+        "fonction": "Président",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Zone de police Mariemont",
+        "fonction": "Membre du conseil",
+        "remuneration": "779.97",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Allard Cambier, 25",
+      "dep_cp": "7160",
+      "dep_localite": "CHAPELLE-LEZ-HERLAIMONT"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": null,
+    "fax": null,
+    "email": "m.sahli@parlement-wallonie.be",
+    "site": null,
+    "siege": "D061"
+  },
+  {
+    "id": "WaB-82",
+    "name": "Schonbrodt",
+    "surname": "László",
+    "parti": "PTB",
+    "circonscription": "Verviers",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": "",
+    "adresse": {
+      "dep_adresse": "Square Arthur Masson, 6",
+      "dep_cp": "5000",
+      "dep_localite": "NAMUR"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/laszlo.schonbrodt",
+      "dep_twitter": "https://www.twitter.com/laszloschonbrod",
+      "dep_instagram": null
+    },
+    "tel": null,
+    "fax": null,
+    "email": "l.schonbrodt@parlement-wallonie.be",
+    "site": null,
+    "siege": "D008"
+  },
+  {
+    "id": "WaB-83",
+    "name": "Schyns",
+    "surname": "Marie-Martine",
+    "parti": "cdH",
+    "circonscription": "Verviers",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Herve (Ville de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "1 387,29",
+        "avantage": ""
+      },
+      {
+        "titre": "Ecetia scrl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Maison communale d’accueil de l’enfance (MCAE) asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "ORES",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Régie Communale Autonome",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue Jardon, 99",
+      "dep_cp": "4650",
+      "dep_localite": "HERVE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/mariemartineschyns",
+      "dep_twitter": "https://twitter.com/MM_Schyns",
+      "dep_instagram": null
+    },
+    "tel": "087.32.22.63",
+    "fax": null,
+    "email": "mm.schyns@parlement-wallonie.be",
+    "site": "http://www.mm-schyns.be",
+    "siege": "D032"
+  },
+  {
+    "id": "WaB-85",
+    "name": "Sobry",
+    "surname": "Rachel",
+    "parti": "MR",
+    "circonscription": "Charleroi-Thuin",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Momignies (Commune de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "700",
+        "avantage": ""
+      },
+      {
+        "titre": "IGRETEC",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Intercommunale de Mutualisation Informatique et Organisationnelle (iMio) scrl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Opérateur de Transport de Wallonie (OTW)",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue du Commerce, 1 E/S",
+      "dep_cp": "6000",
+      "dep_localite": "CHARLEROI"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/rsobry",
+      "dep_twitter": "https://twitter.com/SobryRachel",
+      "dep_instagram": "https://www.instagram.com/rachelsobry/?hl=fr"
+    },
+    "tel": "0473.62.74.46",
+    "fax": null,
+    "email": "r.sobry@parlement-wallonie.be",
+    "site": "https://www.rachelsobry.be/",
+    "siege": "D073"
+  },
+  {
+    "id": "WaB-87",
+    "name": "Tzanetatos",
+    "surname": "Nicolas",
+    "parti": "MR",
+    "circonscription": "Charleroi-Thuin",
+    "fonction": "Président de commission",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Charleroi (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "2 496,00",
+        "avantage": ""
+      },
+      {
+        "titre": "IGRETEC",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Intercommunale de Santé Publique du pays de Charleroi (ISPPC)",
+        "fonction": "Administrateur",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Président de commission",
+        "remuneration": "8 987,79",
+        "avantage": ""
+      },
+      {
+        "titre": "Tzanetatos & Co sprl",
+        "fonction": "Avocat-gérant",
+        "remuneration": "Non rémunéré",
+        "avantage": "Oui"
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "rue du Commerce, 1 E/S",
+      "dep_cp": "6000",
+      "dep_localite": "CHARLEROI"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": "071.33.39.30",
+    "fax": "071.20.40.99",
+    "email": "n.tzanetatos@parlement-wallonie.be",
+    "site": null,
+    "siege": "D071"
+  },
+  {
+    "id": "WaB-90",
+    "name": "Vandevoorde",
+    "surname": "Anouk",
+    "parti": "PTB",
+    "circonscription": "Namur",
+    "fonction": "Vice-présidente de commission",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "rue du Collège, 29",
+      "dep_cp": "5000",
+      "dep_localite": "NAMUR"
+    },
+    "rs": { "dep_facebook": null, "dep_twitter": null, "dep_instagram": null },
+    "tel": null,
+    "fax": null,
+    "email": "a.vandevoorde@parlement-wallonie.be",
+    "site": null,
+    "siege": "D006"
+  },
+  {
+    "id": "WaB-91",
+    "name": "Vandorpe",
+    "surname": "Mathilde",
+    "parti": "cdH",
+    "circonscription": "Tournai-Ath-Mouscron",
+    "fonction": "3ème Secrétaire du Parlement",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Mouscron (Ville de)",
+        "fonction": "Conseillère communale",
+        "remuneration": "2 003,72",
+        "avantage": ""
+      },
+      {
+        "titre": "Groupe Relais asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Intercommunale d’Etude et de Gestion (IEG)",
+        "fonction": "Administratrice",
+        "remuneration": "1 963,02",
+        "avantage": ""
+      },
+      {
+        "titre": "IPALLE",
+        "fonction": "Administratrice",
+        "remuneration": "3 507,00",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Députée",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Députée",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Membre du Bureau",
+        "remuneration": "8 987,79",
+        "avantage": ""
+      },
+      {
+        "titre": "Club de Gymnastique Olympique Mouscronnois (CGOM) asbl",
+        "fonction": "Membre d’honneur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Crèche Saint-Achaire asbl",
+        "fonction": "Présidente du conseil d'administration",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "ELEA asbl",
+        "fonction": "Présidente du conseil d'administration",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Foyer Tibériade asbl",
+        "fonction": "Présidente du conseil d'administration",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Futur Aux Sports asbl",
+        "fonction": "Membre",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Gym Passion Herseaux asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "La Prairie asbl",
+        "fonction": "Administratrice",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Royal Dauphins Mouscronnois asbl",
+        "fonction": "Présidente du conseil d'administration",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "chaussée du Clorbus, 92",
+      "dep_cp": "7700",
+      "dep_localite": "MOUSCRON"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/mathildevandorpe1/",
+      "dep_twitter": "https://twitter.com/m_vandorpe",
+      "dep_instagram": null
+    },
+    "tel": "056.34.15.21",
+    "fax": null,
+    "email": "m.vandorpe@parlement-wallonie.be",
+    "site": "http://www.mathildevandorpe.be",
+    "siege": "D033"
+  },
+  {
+    "id": "WaB-93",
+    "name": "Wahl",
+    "surname": "Jean-Paul",
+    "parti": "MR",
+    "circonscription": "Nivelles",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [
+      {
+        "titre": "Jodoigne (Ville de)",
+        "fonction": "Conseiller communal",
+        "remuneration": "1 570,38",
+        "avantage": ""
+      },
+      {
+        "titre": "GAL Culturalité en Hesbaye brabançonne asbl",
+        "fonction": "Membre de l’assemblée générale",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Régie Communale Autonome Plaine de la Gadale",
+        "fonction": "Administrateur",
+        "remuneration": "100",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Député",
+        "remuneration": "104 284,85",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement wallon",
+        "fonction": "Président de groupe",
+        "remuneration": "8 987,70",
+        "avantage": ""
+      },
+      {
+        "titre": "Parlement de la Communauté française",
+        "fonction": "Député",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Sénat",
+        "fonction": "Sénateur des entités fédérées",
+        "remuneration": "0",
+        "avantage": ""
+      },
+      {
+        "titre": "Caisse de retraite des Sénateurs asbl",
+        "fonction": "Administrateur",
+        "remuneration": "375",
+        "avantage": ""
+      },
+      {
+        "titre": "Action Libérale Brabançonne Wallonne (ALBW) asbl",
+        "fonction": "Président du conseil d’administration",
+        "remuneration": "Non rémunéré",
+        "avantage": "Oui"
+      },
+      {
+        "titre": "Cabinet Wahl sprl",
+        "fonction": "Avocat-gérant",
+        "remuneration": "Rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Groupe MR du Parlement de la Communauté française asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": "Oui"
+      },
+      {
+        "titre": "Groupe MR du Parlement wallon asbl",
+        "fonction": "Président du conseil d’administration",
+        "remuneration": "Non rémunéré",
+        "avantage": "Oui"
+      },
+      {
+        "titre": "Groupe MR du Sénat asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": "Oui"
+      },
+      {
+        "titre": "Les Echos de la Ghette sc",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Taxi Seniors asbl",
+        "fonction": "Administrateur",
+        "remuneration": "Non rémunéré",
+        "avantage": ""
+      },
+      {
+        "titre": "Wahl et Cie scs",
+        "fonction": "Gérant",
+        "remuneration": "Rémunéré",
+        "avantage": ""
+      }
+    ],
+    "adresse": {
+      "dep_adresse": "avenue Fernand Charlot, 5A",
+      "dep_cp": "1370",
+      "dep_localite": "JODOIGNE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/jeanpaul.wahl.1",
+      "dep_twitter": null,
+      "dep_instagram": null
+    },
+    "tel": "010.81.07.22",
+    "fax": "010.81.16.44",
+    "email": "jp.wahl@parlement-wallonie.be",
+    "site": "http://www.jpwahl.be",
+    "siege": "D050"
+  },
+  {
+    "id": "WaB-94",
+    "name": "Witsel",
+    "surname": "Thierry",
+    "parti": "PS",
+    "circonscription": "Liège",
+    "fonction": "",
+    "sexe": "M",
+    "mandats": [],
+    "adresse": {
+      "dep_adresse": "boulevard de la Sauvenière, 99",
+      "dep_cp": "4000",
+      "dep_localite": "LIEGE"
+    },
+    "rs": {
+      "dep_facebook": "https://www.facebook.com/thierrywitselbis",
+      "dep_twitter": "https://twitter.com/ThierryWitsel",
+      "dep_instagram": "https://instagram.com/twitsel/"
+    },
+    "tel": null,
+    "fax": null,
+    "email": "t.witsel@parlement-wallonie.be",
+    "site": "http://www.thierrywitsel.be",
+    "siege": "D059"
+  }
+]
