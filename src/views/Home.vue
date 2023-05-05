@@ -64,8 +64,8 @@
                     <div class="bg-gray-300  flex flex-wrap">
                         <div class="bg-white border-4 border-gray-700 flex justify-center items-center w-1/3">
                             <div class=" justify-between items-center w-64 flex ">
-                                <img :src="`../src/assets/img/normal/${this.selectedDeputy.name}.jpg`" alt="image"
-                                    class=" sepia-[.5] w-full h-full">
+                                <img :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${this.selectedDeputy.name}.jpg`"
+                                    alt="image" class=" sepia-[.5] w-full h-full">
                             </div>
                         </div>
                         <div class="bg-gray-800  py-2 px-4 text-white text-sm w-2/3">
@@ -246,9 +246,9 @@
                                         <div class="flex items-center m-2 cursor-pointer">
                                             <div class="relative flex-shrink-0">
                                                 <img class="w-8 h-8 rounded-full"
-                                                    :src="`../src/assets/img/normal/${deputy.name}.jpg`"> <img
-                                                    class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                    :src="`../src/assets/img/normal/${deputy.parti}.jpg`" />
+                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
+                                                <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
+                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
                                             </div>
                                         </div>
                                     </div>
@@ -270,9 +270,9 @@
                                         <div class="flex items-center m-2 cursor-pointer">
                                             <div class="relative flex-shrink-0">
                                                 <img class="w-8 h-8 rounded-full"
-                                                    :src="`../src/assets/img/normal/${deputy.name}.jpg`"> <img
-                                                    class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                    :src="`../src/assets/img/normal/${deputy.parti}.jpg`" />
+                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
+                                                <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
+                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
                                             </div>
                                         </div>
                                     </div>
@@ -294,9 +294,9 @@
                                         <div class="flex items-center m-2 cursor-pointer">
                                             <div class="relative flex-shrink-0">
                                                 <img class="w-8 h-8 rounded-full"
-                                                    :src="`../src/assets/img/normal/${deputy.name}.jpg`"> <img
-                                                    class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                    :src="`../src/assets/img/normal/${deputy.parti}.jpg`" />
+                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
+                                                <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
+                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
                                             </div>
                                         </div>
                                     </div>
@@ -318,9 +318,9 @@
                                         <div class="flex items-center m-2 cursor-pointer">
                                             <div class="relative flex-shrink-0">
                                                 <img class="w-8 h-8 rounded-full"
-                                                    :src="`../src/assets/img/normal/${deputy.name}.jpg`"> <img
-                                                    class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                    :src="`../src/assets/img/normal/${deputy.parti}.jpg`" />
+                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
+                                                <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
+                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
                                             </div>
                                         </div>
                                     </div>
@@ -344,7 +344,8 @@
                             <div v-for="( count, parti ) in  selectedLawByParti.pour " class="flex shrink items-center">
                                 <div v-if="count > 0"
                                     class="text-slate-200  m-2 font-semibold flex flex-col items-center justify-center flex-shrink-0">
-                                    <img class="w-8 h-8 rounded-full" :src="`../src/assets/img/normal/${parti}.jpg`">
+                                    <img class="w-8 h-8 rounded-full"
+                                        :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
                                     <p>{{ count }}</p>
                                 </div>
                             </div>
@@ -362,7 +363,8 @@
                                 class="shrink flex justify-center items-center">
                                 <div v-if="count > 0"
                                     class="text-slate-200 font-semibold flex flex-col items-center justify-center flex-shrink-0  m-2">
-                                    <img class="w-8 h-8 rounded-full" :src="`../src/assets/img/normal/${parti}.jpg`">
+                                    <img class="w-8 h-8 rounded-full"
+                                        :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
                                     <p>{{ count }}</p>
                                 </div>
                             </div>
@@ -380,7 +382,8 @@
                                 class="shrink flex justify-center items-center">
                                 <div v-if="count > 0"
                                     class="text-slate-200 font-semibold flex flex-col items-center justify-center flex-shrink-0  m-2">
-                                    <img class="w-8 h-8 rounded-full" :src="`../src/assets/img/normal/${parti}.jpg`">
+                                    <img class="w-8 h-8 rounded-full"
+                                        :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
                                     <p>{{ count }}</p>
                                 </div>
                             </div>
