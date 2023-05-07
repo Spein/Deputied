@@ -265,10 +265,10 @@
                                     <span class="relative text-slate-900 font-extrabold text-lg"> Oui-Oui </span>
                                 </span>
                                 <div v-if="this.depMood.oui[0].sexe === 'M'"
-                                    class=" bg-[url('./src/assets/img/Moods/ouiM.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
+                                    class=" bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/ouiM.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
                                 </div>
                                 <div v-else
-                                    class=" bg-[url('./src/assets/img/Moods/ouiF.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
+                                    class=" bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/ouiF.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
                                 </div>
                                 <div
                                     class=" w-full  font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50 p-1 text-center">
@@ -291,10 +291,10 @@
                                     <span class="relative text-slate-900 font-extrabold text-lg"> Non-Non </span>
                                 </span>
                                 <div v-if="this.depMood.non[0].sexe === 'M'"
-                                    class=" bg-[url('./src/assets/img/Moods/nonM.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
+                                    class=" bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/nonM.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
                                 </div>
                                 <div v-else
-                                    class=" bg-[url('./src/assets/img/Moods/nonF.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
+                                    class=" bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/nonF.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
                                 </div>
 
                                 <div
@@ -318,10 +318,10 @@
                             <div class="w-full h-64 flex flex-col justify-between ">
 
                                 <div v-if="this.depMood.non[0].sexe === 'M'"
-                                    class=" bg-[url('./src/assets/img/Moods/abM.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
+                                    class=" bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/abM.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
                                 </div>
                                 <div v-else
-                                    class=" bg-[url('./src/assets/img/Moods/abF.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
+                                    class=" bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/abF.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
                                 </div>
 
 
@@ -338,7 +338,7 @@
                         <div v-if="depPalm" @click="showModal = true, showDetailsDep(this.depPalm.laziest[0].name)"
                             class=" cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)] p-[8px] border-2 border-slate-900 font-sans bg-lime-50  text-center">
                             <div
-                                class="bg-[url('./src/assets/img/Moods/absent.jpg')] bg-no-repeat bg-cover bg-center w-full h-64 flex flex-col justify-between ">
+                                class="bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/absent.jpg')] bg-no-repeat bg-cover bg-center w-full h-64 flex flex-col justify-between ">
                                 <div
                                     class=" w-full  font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50 p-1 text-center">
 
