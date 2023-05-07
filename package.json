@@ -16,10 +16,10 @@
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@mdi/font": "^7.2.96",
     "axios": "^1.3.6",
-    "bing-chat": "^0.2.3",
+    "chart.js": "^4.3.0",
     "oh-vue-icons": "^1.0.0-rc3",
-    "pixelate": "^0.0.5",
     "vue": "^3.2.47",
+    "vue-chartjs": "^5.2.0",
     "vue-material-design-icons": "^5.2.0",
     "vue-router": "^4.1.6",
     "vuex": "^4.1.0"
