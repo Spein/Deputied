@@ -143,7 +143,7 @@
                         </div>
                     </div>
                     <div v-if="selectedLaw && !selectedLaw.voteNom">
-                        <NoLawSideBar :law="this.selectedLaw" />
+                        <NoLawSideBar :law="this.selectedLaw"></NoLawSideBar>/>
 
                     </div>
                 </div>
@@ -155,13 +155,18 @@
                     <div
                         class="bg-gray-800 rounded-lg p-4 grid grid-cols-2 2xl:grid-cols-2  col-span-2 lg:col-span-1 gap-6">
 
-                        <DepMood :deputies="this.deputies" :laws="this.laws" :avis="'oui'">Oui-Oui</DepMood>
+                        <DepMood :deputies="this.deputies" :laws="this.laws" :avis="'oui'" v-on:select_deputy="selectDeputy"
+                            v-on:switch_modal="switchModal">Oui-Oui</DepMood>
 
-                        <DepMood :deputies="this.deputies" :laws="this.laws" :avis="'non'">Non-Non</DepMood>
+                        <DepMood :deputies="this.deputies" :laws="this.laws" :avis="'non'" v-on:select_deputy="selectDeputy"
+                            v-on:switch_modal="switchModal">Non-Non</DepMood>
 
-                        <DepMood :deputies="this.deputies" :laws="this.laws" :avis="'ab'">Le Suisse</DepMood>
+                        <DepMood :deputies="this.deputies" :laws="this.laws" :avis="'ab'" v-on:select_deputy="selectDeputy"
+                            v-on:switch_modal="switchModal">
+                            Le Suisse</DepMood>
 
-                        <DepPalmares :deputies="this.deputies" :seances="this.seances" />
+                        <DepPalmares :deputies="this.deputies" :seances="this.seances" v-on:select_deputy="selectDeputy"
+                            v-on:switch_modal="switchModal" />
 
                         <div class="relative lg:col-span-2 grid-cols-1 2xl:col-span-2 bg-gray-800 rounded-lg p-4 ">
                             <LastArticles :laws="this.laws" v-on:Select_Law="selectLaw" />
@@ -247,6 +252,7 @@ export default {
             this.showModal = element
         },
         selectDeputy(deputyName) {
+            console.log('rer')
             const deputy = this.deputies.filter(deputy =>
                 deputy.name === deputyName)
 

@@ -118,6 +118,8 @@ export default {
             this.$emit('select_deputy', deputyName)
         }
     },
+    emits: ['select_deputy', 'switch_modal'],
+
     mounted() {
         this.getDepMood()
 
