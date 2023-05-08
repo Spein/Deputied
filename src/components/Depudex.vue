@@ -106,7 +106,7 @@
                                     <tr v-for="(law, index) in  laws " :key="law.id" class="text-slate-700 text-center">
                                         <td v-if="law.voteNom && (law.voteNom.oui.includes(deputy.name) || law.voteNom.non.includes(deputy.name) || law.voteNom.ab.includes(deputy.name))"
                                             class="cursor-pointer hover:text-cyan-700 hover:font-extrabold p-2"
-                                            @click="showDetails(law.id)">{{ law.titre.slice(0,
+                                            @click="selectLaw(law.id)">{{ law.titre.slice(0,
                                                 105) + ".." }}</td>
                                         <td v-if="law.voteNom && (law.voteNom.oui.includes(deputy.name) || law.voteNom.non.includes(deputy.name) || law.voteNom.ab.includes(deputy.name))"
                                             class=" p-2">{{ law.date }}</td>
@@ -187,7 +187,10 @@ export default {
         },
         switchModal() {
             this.$emit('switch_modal', false)
-        }
+        },
+        selectLaw(LawId) {
+            this.$emit('select_law', LawId)
+        },
     },
 
 }
