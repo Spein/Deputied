@@ -82,6 +82,9 @@ export default {
                         backgroundColor: '#8B5CF6',
                     },
                 ]
+            },
+            options: {
+                maintainAspectRatio: true
             }
         }
     }

@@ -1,7 +1,7 @@
 <template>
     <div class="whitespace-normal flex min-h-screen ">
         <!-- Sidebar -->
-        <div class="sidebar bg-gray-900 flex flex-col w-[3.5vw] items-center justify-start">
+        <!--  <div class="sidebar bg-gray-900 flex flex-col w-[3.5vw] items-center justify-start">
             <div class="logo flex items-center  justify-center p-4">
                 <button
                     class="bg-gray-200 rounded-full h-10 w-10 hover:bg-green-500 hover:rounded-lg hover:ease-in transition duration-150 ease-out ">
@@ -27,13 +27,12 @@
                 </button>
 
             </div>
-        </div>
-        <div class=" sidebar bg-gray-700 w-[12vw] flex flex-col items-start justify-start max-h-screen overflow-auto ">
+        </div> -->
+        <div class=" sidebar w-48 bg-gray-700 flex flex-col items-start justify-start max-h-screen overflow-auto ">
             <div class=" logo flex flex-col items-start justify-start w-full min-h-full">
                 <div>
                     <div class="sticky top-0">
-                        <input type="text" class=" border-2 border-gray-200 min-w-full" placeholder="Recherche"
-                            v-model="search">
+                        <input type="text" class=" border-2 border-gray-200" placeholder="Recherche" v-model="search">
                         <ul>
                             <li v-for="item in filteredItems" :key="item.id">{{ item.name }}</li>
                         </ul>
@@ -56,7 +55,7 @@
             </div>
         </div>
         <!-- Main Content -->
-        <div class="main-content flex-1 bg-gray-800 p-10">
+        <div class="main-content flex-1 bg-gray-800 p-3">
             <div class="absolute z-10 w-[30vw] bg-slate-50 top-36 left-1/2 flex flex-wrap  border-4 border-gray-700 rounded-lg "
                 v-if="showModal">
                 <div class="bg-gray-900 min-w-[100%] text-white py-1 px-2 font-bold text-sm flex justify-between">
@@ -241,11 +240,201 @@
                         </div>
                     </div>
                 </main>
+                <div
+                    class="sidebar border-l-4 border-black bg-gray-700 w-[12vw] flex flex-col items-center justify-start max-h-screen overflow-auto ">
+                    <div class="logo flex items-center justify-center w-full min-h-[15vh] bg-no-repeat bg-cover"
+                        :style="` background-image: url(${bgImage}); transform:scaleX(${this.scaleX});`">
+                    </div>
+                    <div v-if="selectedLaw && selectedLaw.voteNom">
+                        <ul class="w-full flex flex-col items-center justify-center my-3">
+                            <li :class="{ 'active': activeTab === 'tab1' }"
+                                class="my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50 p-1 text-center w-44"
+                                @click="activeTab = 'tab1'">Par personne <span
+                                    :class="{ 'mdi mdi-chevron-down': activeTab === 'tab1', 'mdi mdi-chevron-right': activeTab != 'tab1' }"></span>
+                            </li>
+                            <div class="py-4" v-if="activeTab === 'tab1'">
+                                <div id="pour">
+                                    <div class="flex flex-col items-center justify-center py-2 px-2"> <span
+                                            class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-500 relative inline-block">
+                                            <span class="relative text-white"> POUR</span>
+                                        </span> </div>
+                                    <div class="flex  items-center flex-wrap justify-center py-2 px-2">
+                                        <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
+                                            @click="showModal = true, showDetailsDep(deputy.name)">
+                                            <div
+                                                v-if="selectedLaw.voteNom.oui && selectedLaw.voteNom.oui.includes(deputy.name)">
+                                                <div class="flex items-center m-2 cursor-pointer">
+                                                    <div class="relative flex-shrink-0">
+                                                        <img class="w-8 h-8 rounded-full"
+                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
+                                                        <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
+                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="contre">
+                                    <div class="flex flex-col items-center justify-center py-2 px-2">
+                                        <span
+                                            class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-500 relative inline-block">
+                                            <span class="relative text-white"> CONTRE </span>
+                                        </span>
+                                    </div>
+                                    <div class="flex  items-center flex-wrap justify-center py-2 px-2">
+                                        <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
+                                            @click="showModal = true, showDetailsDep(deputy.name)">
+                                            <div
+                                                v-if="selectedLaw.voteNom.non && selectedLaw.voteNom.non.includes(deputy.name)">
+                                                <div class="flex items-center m-2 cursor-pointer">
+                                                    <div class="relative flex-shrink-0">
+                                                        <img class="w-8 h-8 rounded-full"
+                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
+                                                        <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
+                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="abstentions">
+                                    <div class="flex flex-col items-center justify-center py-2 px-2">
+                                        <span
+                                            class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-yellow-500 relative inline-block">
+                                            <span class="relative text-white"> ABSTENTIONS </span>
+                                        </span>
+                                    </div>
+                                    <div class="flex  items-center flex-wrap justify-center py-2 px-2">
+                                        <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
+                                            @click="showModal = true, showDetailsDep(deputy.name)">
+                                            <div
+                                                v-if="selectedLaw.voteNom.ab && selectedLaw.voteNom.ab.includes(deputy.name)">
+                                                <div class="flex items-center m-2 cursor-pointer">
+                                                    <div class="relative flex-shrink-0">
+                                                        <img class="w-8 h-8 rounded-full"
+                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
+                                                        <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
+                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="absents">
+                                    <div class="flex flex-col items-center justify-center py-2 px-2">
+                                        <span
+                                            class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-slate-500 relative inline-block">
+                                            <span class="relative text-white"> ABSENTS </span>
+                                        </span>
+                                    </div>
+                                    <div class="flex  items-center flex-wrap justify-center py-2 px-2">
+                                        <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
+                                            @click="showModal = true, showDetailsDep(deputy.name)">
+                                            <div v-if="absents && absents.includes(deputy.name)">
+                                                <div class="flex items-center m-2 cursor-pointer">
+                                                    <div class="relative flex-shrink-0">
+                                                        <img class="w-8 h-8 rounded-full"
+                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
+                                                        <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
+                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <li :class="{ 'active': activeTab === 'tab2' }"
+                                class="my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50 p-1 text-center w-44"
+                                @click="activeTab = 'tab2'">Par parti <span
+                                    :class="{ 'mdi mdi-chevron-down': activeTab === 'tab2', 'mdi mdi-chevron-right': activeTab != 'tab2' }"></span>
+                            </li>
+                        </ul>
+                        <div v-if="activeTab === 'tab2'">
+                            <div id="pour">
+                                <div class="flex flex-col items-center justify-center py-2 px-2"> <span
+                                        class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-500 relative inline-block">
+                                        <span class="relative text-white"> POUR</span>
+                                    </span> </div>
+                                <div class="flex  items-center flex-wrap justify-center py-2 px-2">
+                                    <div v-for="( count, parti ) in  selectedLawByParti.pour "
+                                        class="flex shrink items-center">
+                                        <div v-if="count > 0"
+                                            class="text-slate-200  m-2 font-semibold flex flex-col items-center justify-center flex-shrink-0">
+                                            <img class="w-8 h-8 rounded-full"
+                                                :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
+                                            <p>{{ count }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="contre">
+                                <div class="flex flex-col items-center justify-center py-2 px-2">
+                                    <span
+                                        class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-500 relative inline-block">
+                                        <span class="relative text-white"> CONTRE </span>
+                                    </span>
+                                </div>
+                                <div class="flex  items-center flex-wrap justify-center py-2 px-2">
+                                    <div v-for="( count, parti ) in  selectedLawByParti.contre "
+                                        class="shrink flex justify-center items-center">
+                                        <div v-if="count > 0"
+                                            class="text-slate-200 font-semibold flex flex-col items-center justify-center flex-shrink-0  m-2">
+                                            <img class="w-8 h-8 rounded-full"
+                                                :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
+                                            <p>{{ count }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="abst">
+                                <div class="flex flex-col items-center justify-center py-2 px-2">
+                                    <span
+                                        class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-yellow-500 relative inline-block">
+                                        <span class="relative text-white"> ABSTENTIONS </span>
+                                    </span>
+                                </div>
+                                <div class="flex  items-center flex-wrap justify-center py-2 px-2">
+                                    <div v-for="( count, parti ) in  selectedLawByParti.ab "
+                                        class="shrink flex justify-center items-center">
+                                        <div v-if="count > 0"
+                                            class="text-slate-200 font-semibold flex flex-col items-center justify-center flex-shrink-0  m-2">
+                                            <img class="w-8 h-8 rounded-full"
+                                                :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
+                                            <p>{{ count }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div v-if="selectedLaw && !selectedLaw.voteNom">
+                        <div class=" flex flex-col items-center justify-center py-2 px-2 min-h-[30vw] h-full">
+
+                            <span class="relative text-white text-center text-xl"> AUCUN VOTE SUR CETTE
+                                DISCUSSION </span>
+                            <span v-if="this.selectedLaw.secType" class="relative text-white text-center p-3">IL
+                                A SUREMENT EU
+                                LIEU
+                                PLUS TARD DANS LA SEANCE: <span @click="search = this.selectedLaw.titre.slice(0, 40)"
+                                    class="font-bold bg-slate-300 text-sky-950 underline cursor-pointer">CLIQUEZ
+                                    ICI </span>
+                                POUR TROUVER LA DISUCSSION LIEE AU VOTE</span>
+                            <span v-else class="relative text-white text-center p-3">{{ this.selectedLaw.type
+                            }}</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div v-else>
-                <div class="grid grid-rows-2 grid-cols-3 sm:grid-cols-3 md:grid-cols-3 h-screen gap-4 p-4">
+                <div
+                    class="grid grid-rows-2 grid-cols-4 sm:grid-cols-2 lg:grid-cols-2 lg:grid-rows-3 2xl:grid-cols-3 h-screen gap-4 p-4 ">
                     <div
-                        class="bg-gray-800 rounded-lg p-4 col-span-2 bg-[url('./src/assets/img/Moods/emptyparl2.jpg')] bg-opacity-20 bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center ">
+                        class="bg-gray-800 rounded-lg p-4 col-span-2 lg:col-span-1  bg-[url('./src/assets/img/Moods/emptyparl2.jpg')] bg-opacity-20 bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center min-h-[45vh]">
+
                         <div
                             class="text-white font-bold text-3xl mb-2 before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-green-500 relative inline-block">
                             <h2 class="text-white relative p-1">Prochaine assemblée</h2>
@@ -254,12 +443,13 @@
                             {{ days }} jours {{ hours }} heures {{ minutes }} minutes {{ seconds }} secondes
                         </div>
                     </div>
-                    <div class="bg-gray-800 rounded-lg p-4 grid grid-cols-2 gap-6">
+                    <div
+                        class="bg-gray-800 rounded-lg p-4 grid grid-cols-2 2xl:grid-cols-2  col-span-2 lg:col-span-1 gap-6">
 
 
                         <div v-if="depMood" @click="showModal = true, showDetailsDep(this.depMood.oui[0].name)"
-                            class="cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  p-[8px] border-2 border-slate-900 font-sans bg-lime-50  text-center">
-                            <div class="w-full h-64 flex flex-col justify-between ">
+                            class="relative cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  p-[8px] border-2 border-slate-900 font-sans bg-lime-50 md:h-60 lg:h-52 2xl:h-[22vh] text-center">
+                            <div class="w-full h-full flex flex-col justify-between ">
                                 <span
                                     class="before:block before:absolute before:-inset-1 px-2 before:bg-green-300 relative inline-block">
                                     <span class="relative text-slate-900 font-extrabold text-lg"> Oui-Oui </span>
@@ -283,8 +473,8 @@
                             </div>
                         </div>
                         <div v-if="depMood" @click="showModal = true, showDetailsDep(this.depMood.non[0].name)"
-                            class=" cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  p-[8px] border-2 border-slate-900 font-sans bg-lime-50  text-center">
-                            <div class="w-full h-64 flex flex-col justify-between ">
+                            class=" relative cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  p-[8px] border-2 border-slate-900 font-sans bg-lime-50 md:h-60 lg:h-52 2xl:h-[22vh]  text-center">
+                            <div class="w-full h-full flex flex-col justify-between ">
 
                                 <span
                                     class="before:block before:absolute before:-inset-1 px-2 before:bg-red-300 relative inline-block">
@@ -309,13 +499,13 @@
                             </div>
                         </div>
                         <div v-if="depMood" @click="showModal = true, showDetailsDep(this.depMood.ab[0].name)"
-                            class=" cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)] p-[8px] border-2 border-slate-900 font-sans bg-lime-50  text-center">
+                            class=" relative cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)] p-[8px] border-2 border-slate-900 font-sans bg-lime-50 md:h-60 lg:h-52 2xl:h-[22vh]  text-center">
                             <div
-                                class=" w-[8.6vw] absolute  font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50 p-1 text-center">
+                                class=" relative font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50 p-1 text-center">
 
                                 {{ this.depMood.ab[0].surname }} {{ this.depMood.ab[0].name }}
                             </div>
-                            <div class="w-full h-64 flex flex-col justify-between ">
+                            <div class="w-full h-[88%] flex flex-col justify-between">
 
                                 <div v-if="this.depMood.non[0].sexe === 'M'"
                                     class=" bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/abM.jpg')] bg-no-repeat bg-cover bg-center w-full h-full">
@@ -326,7 +516,7 @@
 
 
                                 <span
-                                    class="before:block before:absolute before:-inset-1 px-2 before:bg-slate-300 relative inline-block">
+                                    class=" before:block before:absolute before:-inset-1 px-2 before:bg-slate-300 relative inline-block">
                                     <span class="relative text-white font-extrabold text-lg"> LE SUISSE </span>
                                 </span>
 
@@ -336,9 +526,9 @@
                             </div>
                         </div>
                         <div v-if="depPalm" @click="showModal = true, showDetailsDep(this.depPalm.laziest[0].name)"
-                            class=" cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)] p-[8px] border-2 border-slate-900 font-sans bg-lime-50  text-center">
+                            class=" relative cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)] p-[8px] border-2 border-slate-900 font-sans bg-lime-50  md:h-60 lg:h-52 2xl:h-[22vh]  text-center">
                             <div
-                                class="bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/absent.jpg')] bg-no-repeat bg-cover bg-center w-full h-64 flex flex-col justify-between ">
+                                class="bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/absent.jpg')] bg-no-repeat bg-cover bg-center w-full h-full flex flex-col justify-between ">
                                 <div
                                     class=" w-full  font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50 p-1 text-center">
 
@@ -355,215 +545,35 @@
                             </div>
 
                         </div>
+                        <div class="relative lg:col-span-2 grid-cols-1  bg-gray-800 rounded-lg p-4 ">
+                            <h2 class="text-white font-bold text-xl mb-2">Derniers débats</h2>
 
-                    </div>
-                    <div class="bg-gray-800 rounded-lg p-4 col-span-2">
-                        <h2 class="text-white font-bold text-xl mb-2  ">Graphique</h2>
-                        <LineChart />
-                    </div>
-                    <div class="bg-gray-800 rounded-lg p-4 mt-12 ">
-                        <h2 class="text-white font-bold text-xl mb-2">Derniers débats</h2>
-
-                        <li v-for="(law, index) in this.laws" :key="law.id" @click="showDetails(law.id)"
-                            class="hover:bg-slate-400 list-none transition-colors	duration-100 cursor-pointer">
-                            <div v-if="index < 5" class="text-[12px] hover:text-slate-800 first-line:uppercase first-line:tracking-widest
+                            <li v-for="(law, index) in this.laws" :key="law.id" @click="showDetails(law.id)"
+                                class="hover:bg-slate-400 list-none transition-colors	duration-100 cursor-pointer">
+                                <div v-if="index < 5" class="text-[12px] hover:text-slate-800 first-line:uppercase first-line:tracking-widest
                                     first-letter:text-5xl first-letter:font-bold first-letter:text-slate-500
                                   first-letter:mr-3 lowercase first-letter:float-left text-slate-400  my-2 ">
-                                {{ law.titre.slice(0, 185) + ".." }}
-                                <p class="text-slate-300 text-sm text-justify">{{ law.body.slice(0, 185) + ".." }}</p>
-                            </div>
+                                    {{ law.titre.slice(0, 185) + ".." }}
+                                    <p class="text-slate-300 text-sm text-justify">{{ law.body.slice(0, 185) + ".." }}</p>
+                                </div>
 
 
-                        </li>
+                            </li>
+
+                        </div>
+                    </div>
+                    <div class="lg:col-span-2 grid-cols-1  grid bg-gray-800 rounded-lg p-4  relative min-w-full">
+                        <h2 class="text-white font-bold text-xl mb-2  ">Graphique</h2>
+                        <div class="relative w-[40vw] h-[40vw]">
+                            <LineChart />
+                        </div>
 
                     </div>
+
                 </div>
             </div>
         </div>
-        <div
-            class="sidebar border-l-4 border-black bg-gray-700 w-[12vw] flex flex-col items-center justify-start max-h-screen overflow-auto ">
-            <div class="logo flex items-center justify-center w-full min-h-[15vh] bg-no-repeat bg-cover"
-                :style="` background-image: url(${bgImage}); transform:scaleX(${this.scaleX});`">
-            </div>
-            <div v-if="selectedLaw && selectedLaw.voteNom">
-                <ul class="w-full flex flex-col items-center justify-center my-3">
-                    <li :class="{ 'active': activeTab === 'tab1' }"
-                        class="my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50 p-1 text-center w-44"
-                        @click="activeTab = 'tab1'">Par personne <span
-                            :class="{ 'mdi mdi-chevron-down': activeTab === 'tab1', 'mdi mdi-chevron-right': activeTab != 'tab1' }"></span>
-                    </li>
-                    <div class="py-4" v-if="activeTab === 'tab1'">
-                        <div id="pour">
-                            <div class="flex flex-col items-center justify-center py-2 px-2"> <span
-                                    class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-500 relative inline-block">
-                                    <span class="relative text-white"> POUR</span>
-                                </span> </div>
-                            <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                                <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
-                                    @click="showModal = true, showDetailsDep(deputy.name)">
-                                    <div v-if="selectedLaw.voteNom.oui && selectedLaw.voteNom.oui.includes(deputy.name)">
-                                        <div class="flex items-center m-2 cursor-pointer">
-                                            <div class="relative flex-shrink-0">
-                                                <img class="w-8 h-8 rounded-full"
-                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
-                                                <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="contre">
-                            <div class="flex flex-col items-center justify-center py-2 px-2">
-                                <span
-                                    class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-500 relative inline-block">
-                                    <span class="relative text-white"> CONTRE </span>
-                                </span>
-                            </div>
-                            <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                                <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
-                                    @click="showModal = true, showDetailsDep(deputy.name)">
-                                    <div v-if="selectedLaw.voteNom.non && selectedLaw.voteNom.non.includes(deputy.name)">
-                                        <div class="flex items-center m-2 cursor-pointer">
-                                            <div class="relative flex-shrink-0">
-                                                <img class="w-8 h-8 rounded-full"
-                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
-                                                <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="abstentions">
-                            <div class="flex flex-col items-center justify-center py-2 px-2">
-                                <span
-                                    class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-yellow-500 relative inline-block">
-                                    <span class="relative text-white"> ABSTENTIONS </span>
-                                </span>
-                            </div>
-                            <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                                <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
-                                    @click="showModal = true, showDetailsDep(deputy.name)">
-                                    <div v-if="selectedLaw.voteNom.ab && selectedLaw.voteNom.ab.includes(deputy.name)">
-                                        <div class="flex items-center m-2 cursor-pointer">
-                                            <div class="relative flex-shrink-0">
-                                                <img class="w-8 h-8 rounded-full"
-                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
-                                                <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="absents">
-                            <div class="flex flex-col items-center justify-center py-2 px-2">
-                                <span
-                                    class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-slate-500 relative inline-block">
-                                    <span class="relative text-white"> ABSENTS </span>
-                                </span>
-                            </div>
-                            <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                                <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
-                                    @click="showModal = true, showDetailsDep(deputy.name)">
-                                    <div v-if="absents && absents.includes(deputy.name)">
-                                        <div class="flex items-center m-2 cursor-pointer">
-                                            <div class="relative flex-shrink-0">
-                                                <img class="w-8 h-8 rounded-full"
-                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
-                                                <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                    :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <li :class="{ 'active': activeTab === 'tab2' }"
-                        class="my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50 p-1 text-center w-44"
-                        @click="activeTab = 'tab2'">Par parti <span
-                            :class="{ 'mdi mdi-chevron-down': activeTab === 'tab2', 'mdi mdi-chevron-right': activeTab != 'tab2' }"></span>
-                    </li>
-                </ul>
-                <div v-if="activeTab === 'tab2'">
-                    <div id="pour">
-                        <div class="flex flex-col items-center justify-center py-2 px-2"> <span
-                                class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-500 relative inline-block">
-                                <span class="relative text-white"> POUR</span>
-                            </span> </div>
-                        <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                            <div v-for="( count, parti ) in  selectedLawByParti.pour " class="flex shrink items-center">
-                                <div v-if="count > 0"
-                                    class="text-slate-200  m-2 font-semibold flex flex-col items-center justify-center flex-shrink-0">
-                                    <img class="w-8 h-8 rounded-full"
-                                        :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
-                                    <p>{{ count }}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="contre">
-                        <div class="flex flex-col items-center justify-center py-2 px-2">
-                            <span
-                                class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-500 relative inline-block">
-                                <span class="relative text-white"> CONTRE </span>
-                            </span>
-                        </div>
-                        <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                            <div v-for="( count, parti ) in  selectedLawByParti.contre "
-                                class="shrink flex justify-center items-center">
-                                <div v-if="count > 0"
-                                    class="text-slate-200 font-semibold flex flex-col items-center justify-center flex-shrink-0  m-2">
-                                    <img class="w-8 h-8 rounded-full"
-                                        :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
-                                    <p>{{ count }}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="abst">
-                        <div class="flex flex-col items-center justify-center py-2 px-2">
-                            <span
-                                class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-yellow-500 relative inline-block">
-                                <span class="relative text-white"> ABSTENTIONS </span>
-                            </span>
-                        </div>
-                        <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                            <div v-for="( count, parti ) in  selectedLawByParti.ab "
-                                class="shrink flex justify-center items-center">
-                                <div v-if="count > 0"
-                                    class="text-slate-200 font-semibold flex flex-col items-center justify-center flex-shrink-0  m-2">
-                                    <img class="w-8 h-8 rounded-full"
-                                        :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
-                                    <p>{{ count }}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div v-if="selectedLaw && !selectedLaw.voteNom">
-                <div class=" flex flex-col items-center justify-center py-2 px-2 min-h-[30vw] h-full">
 
-                    <span class="relative text-white text-center text-xl"> AUCUN VOTE SUR CETTE
-                        DISCUSSION </span>
-                    <span v-if="this.selectedLaw.secType" class="relative text-white text-center p-3">IL
-                        A SUREMENT EU
-                        LIEU
-                        PLUS TARD DANS LA SEANCE: <span @click="search = this.selectedLaw.titre.slice(0, 40)"
-                            class="font-bold bg-slate-300 text-sky-950 underline cursor-pointer">CLIQUEZ
-                            ICI </span>
-                        POUR TROUVER LA DISUCSSION LIEE AU VOTE</span>
-                    <span v-else class="relative text-white text-center p-3">{{ this.selectedLaw.type
-                    }}</span>
-                </div>
-            </div>
-        </div>
 
     </div>
 </template> 
