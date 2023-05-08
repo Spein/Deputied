@@ -4,7 +4,7 @@
         <div class="w-full h-full flex flex-col justify-between ">
 
             <span
-                :class="`before:block before:absolute before:-inset-1 px-2 before:bg-${this.bgColor} relative inline-block`">
+                :class="`before:block before:absolute before:-inset-1 px-2 before:bg-${this.bgColor} relative inline-block `">
                 <span class="relative text-slate-900 font-extrabold text-lg">
                     <slot></slot>
                 </span>
@@ -68,7 +68,6 @@ export default {
         },
         getDepMood() {
 
-            const deputNames = [...new Set(this.deputies.map(deputy => deputy.name))];
             const avisAgregate = []
             const avis = this.avis
             this.setbgColor(avis)
@@ -92,7 +91,6 @@ export default {
             })
 
             this.depMood = predepMood
-            console.log(this.depMood)
         },
         mostFrequentElement(array) {
             // Compte les occurrences de chaque élément dans le tableau

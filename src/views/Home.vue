@@ -240,6 +240,7 @@ export default {
             absents: null,
             seance: null,
             search: '',
+            seanceTags: []
         };
     },
     methods: {
@@ -251,9 +252,10 @@ export default {
                 deputy.name === deputyName)
 
             this.selectedDeputy = deputy[0]
-            console.log(this.selectDeputy)
+            console.log(this.selectedDeputy)
         },
         selectLaw(lawId) {
+
             const law = this.laws.filter(law =>
                 law.id === lawId)
 

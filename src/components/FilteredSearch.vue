@@ -48,7 +48,6 @@ export default {
             this.$emit('select_law', LawId)
         },
         filteredItems() {
-            console.log("fdsf")
             if (!this.search) {
                 return this.laws.filter(law =>
                     Object.keys(law).includes('voteNom')
