@@ -433,7 +433,7 @@
                 <div
                     class="grid grid-rows-2 grid-cols-4 sm:grid-cols-2 lg:grid-cols-2 lg:grid-rows-3 2xl:grid-cols-3 h-screen gap-4 p-4 ">
                     <div
-                        class="bg-gray-800 rounded-lg p-4 col-span-2 lg:col-span-1  bg-[url('./src/assets/img/Moods/emptyparl2.jpg')] bg-opacity-20 bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center min-h-[45vh]">
+                        class="bg-gray-800 rounded-lg p-4 col-span-2 lg:col-span-1 2xl:col-span-2 bg-[url('./src/assets/img/Moods/emptyparl2.jpg')] bg-opacity-20 bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center min-h-[45vh]">
 
                         <div
                             class="text-white font-bold text-3xl mb-2 before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-green-500 relative inline-block">
@@ -545,7 +545,7 @@
                             </div>
 
                         </div>
-                        <div class="relative lg:col-span-2 grid-cols-1  bg-gray-800 rounded-lg p-4 ">
+                        <div class="relative lg:col-span-2 grid-cols-1 2xl:col-span-2 bg-gray-800 rounded-lg p-4 ">
                             <h2 class="text-white font-bold text-xl mb-2">Derniers débats</h2>
 
                             <li v-for="(law, index) in this.laws" :key="law.id" @click="showDetails(law.id)"
@@ -562,9 +562,9 @@
 
                         </div>
                     </div>
-                    <div class="lg:col-span-2 grid-cols-1  grid bg-gray-800 rounded-lg p-4  relative min-w-full">
+                    <div class="lg:col-span-1 grid-cols-1  2xl:col-span-2    grid bg-gray-800 rounded-lg p-4  relative">
                         <h2 class="text-white font-bold text-xl mb-2  ">Graphique</h2>
-                        <div class="relative w-[40vw] h-[40vw]">
+                        <div class="relative lg:w-[40vw] 2xl:w-[60vw] h-[40vw]">
                             <LineChart />
                         </div>
 
