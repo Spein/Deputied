@@ -1,5 +1,5 @@
 <template>
-    <div class="whitespace-normal flex min-h-screen ">
+    <div class="whitespace-normal grid grid-cols-12  grid-rows-1 min-h-screen ">
         <!-- Sidebar -->
         <!--  <div class="sidebar bg-gray-900 flex flex-col w-[3.5vw] items-center justify-start">
             <div class="logo flex items-center  justify-center p-4">
@@ -28,7 +28,7 @@
 
             </div>
         </div> -->
-        <div class=" sidebar w-48 bg-gray-700 flex flex-col items-start justify-start max-h-screen overflow-auto ">
+        <div class=" sidebar  bg-gray-700 col-span-2 flex flex-col items-start justify-start max-h-screen overflow-auto ">
             <div class=" logo flex flex-col items-start justify-start w-full min-h-full">
                 <div>
                     <div class="sticky top-0">
@@ -55,7 +55,7 @@
             </div>
         </div>
         <!-- Main Content -->
-        <div class="main-content flex-1 bg-gray-800 p-3">
+        <div class="main-content col-span-9  bg-gray-800 p-3 ">
             <div class="absolute z-10 w-[30vw] bg-slate-50 top-36 left-1/2 flex flex-wrap  border-4 border-gray-700 rounded-lg "
                 v-if="showModal">
                 <div class="bg-gray-900 min-w-[100%] text-white py-1 px-2 font-bold text-sm flex justify-between">
@@ -203,7 +203,7 @@
                 <!-- Top Navigation -->
                 <!-- Main Content -->
                 <main class="container mx-auto px-4 py-6">
-                    <div class="w-full">
+                    <div class="">
                         <h1 class="text-xl font-bold text-orange-200 mb-2">{{ selectedLaw.titre }}</h1>
                     </div>
 
@@ -431,7 +431,7 @@
             </div>
             <div v-else>
                 <div
-                    class="grid grid-rows-2 grid-cols-4 sm:grid-cols-2 lg:grid-cols-2 lg:grid-rows-3 2xl:grid-cols-3 h-screen gap-4 p-4 ">
+                    class="grid grid-rows-2 grid-cols-3 sm:grid-cols-2 lg:grid-cols-2 lg:grid-rows-3 2xl:grid-cols-3 h-screen gap-4 p-4 ">
                     <div
                         class="bg-gray-800 rounded-lg p-4 col-span-2 lg:col-span-1 2xl:col-span-2 bg-[url('./src/assets/img/Moods/emptyparl2.jpg')] bg-opacity-20 bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center min-h-[45vh]">
 
@@ -564,7 +564,7 @@
                     </div>
                     <div class="lg:col-span-1 grid-cols-1  2xl:col-span-2    grid bg-gray-800 rounded-lg p-4  relative">
                         <h2 class="text-white font-bold text-xl mb-2  ">Graphique</h2>
-                        <div class="relative lg:w-[40vw] 2xl:w-[60vw] h-[40vw]">
+                        <div class="relative lg:w-[40vw] 2xl:w-[45vw] h-[40vw]">
                             <LineChart />
                         </div>
 
