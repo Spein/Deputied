@@ -56,190 +56,17 @@
         </div>
         <!-- Main Content -->
         <div class="main-content col-span-10  bg-gray-800 p-3 ">
-            <div class="absolute z-10 w-[30vw] bg-slate-50 top-36 left-1/2 flex flex-wrap  border-4 border-gray-700 rounded-lg "
-                v-if="showModal">
-                <div class="bg-gray-900 min-w-[100%] text-white py-1 px-2 font-bold text-sm flex justify-between">
-                    <h5>DÉPUDEX</h5>
-                    <span class="mdi mdi-close" @click="showModal = false"></span>
-                </div>
-                <div class="bg-gray-300  flex flex-wrap">
-                    <div class="bg-white border-4 border-gray-700 flex justify-center items-center w-1/3">
-                        <div class=" justify-between items-center w-64 flex ">
-                            <img :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${this.selectedDeputy.name}.jpg`"
-                                alt="image" class=" sepia-[.5] w-full h-full">
-                        </div>
-                    </div>
-                    <div class="bg-gray-800  py-2 px-4 text-white text-sm w-2/3">
-                        <p class="mb-2"><span class="font-bold">Nom:</span> {{
-                            this.selectedDeputy.surname }} {{
-        this.selectedDeputy.name }}</p>
-                        <p class="mb-2"><span class="font-bold">Parti:</span> {{
-                            this.selectedDeputy.parti }}</p>
-                        <p class="mb-2"><span class="font-bold">Circonscription:</span> {{
-                            this.selectedDeputy.circonscription }}</p>
-                        <p class="mb-2"><span class="font-bold">Fonction:</span> {{
-                            this.selectedDeputy.fonction ? this.selectedDeputy.fonction : 'Député' }}
-                        </p>
-                        <p class="mb-2"><span class="font-bold">Presence:</span> {{
-                            calculDepPresence(this.selectedDeputy.name) }}%</p>
-                        <p class="mb-2"><span class="font-bold">Wikipedia:</span><a class=" underline" href="/">Lien
-                                vers le wiki</a></p>
-                    </div>
-                    <div class="max-h-96 overflow-auto  p-4 text-white text-xs flex">
-                        <div class="flex flex-col justify-start items-start">
-                            <div class="flex min-w-100 text-slate-700">
-                                <h5 :class="{ 'bg-slate-700 text-slate-100': selectedTab === 'autres-mandats' }"
-                                    class="shadow-[5px_5px_rgba(0,0,0,0.4)]  cursor-pointer border-4 text-sm border-slate-600 font-extrabold mx-3 p-2  hover:bg-slate-700 hover:text-slate-100"
-                                    @click="selectedTab = 'autres-mandats'">Autres mandats
-                                </h5>
-                                <h5 :class="{ 'bg-slate-700 text-slate-100': selectedTab === 'historique' }"
-                                    class="shadow-[5px_5px_rgba(0,0,0,0.4)]  cursor-pointer border-4 text-sm border-slate-600 font-extrabold mx-3 p-2 hover:bg-slate-700 hover:text-slate-100"
-                                    @click="selectedTab = 'historique'">
-                                    Historique</h5>
-                            </div>
-                            <div class="flex flex-col py-4">
-                                <div v-show="selectedTab === 'autres-mandats'" class="px-4 pb-4">
-                                    <table class="min-w-full divide-y divide-transparent">
-                                        <thead>
-                                            <tr>
-                                                <th colspan="5"
-                                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider min-w-[6vw]">
-                                                    Titre
-                                                </th>
-                                                <th colspan="4"
-                                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                                    Fonction
-                                                </th>
-                                                <th colspan="1"
-                                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                                    Rémunération
-                                                </th>
-                                                <th colspan="1"
-                                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                                    Avantages
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody v-if="this.selectedDeputy.mandats.length > 0" class="   divide-gray-200">
-                                            <tr v-for="(mandats, index) in this.selectedDeputy.mandats"
-                                                :key="`${mandats.fonction}-${mandats.titre}`" class="text-slate-700">
-                                                <td colspan="5" class="p-2">{{ mandats.titre }}</td>
-                                                <td colspan="4" class="text-[.61rem]">{{
-                                                    mandats.fonction }}</td>
-                                                <td colspan="1" class="text-right">{{
-                                                    mandats.remuneration }}</td>
-                                                <td colspan="1" class="text-right">{{ mandats.avantage
-                                                }}</td>
-                                            </tr>
-                                        </tbody>
-                                        <tr v-else>
-                                            <td colspan="4">
-                                                <h5 class=" text-semibold text-slate-700 text-center">
-                                                    N'a rien déclaré
-                                                </h5>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div v-show="selectedTab === 'historique'" class="px-4 pb-4">
-                                    <table class="min-w-full divide-y divide-transparent">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col"
-                                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                                    Titre
-                                                </th>
-                                                <th scope="col"
-                                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                                    Date
-                                                </th>
-                                                <th scope="col"
-                                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                                    Vote
-                                                </th>
-
-                                            </tr>
-                                        </thead>
-                                        <tbody class="divide-gray-200">
-
-                                            <tr v-for="(law, index) in  this.laws " :key="law.id"
-                                                class="text-slate-700 text-center">
-                                                <td v-if="law.voteNom && (law.voteNom.oui.includes(this.selectedDeputy.name) || law.voteNom.non.includes(this.selectedDeputy.name) || law.voteNom.ab.includes(this.selectedDeputy.name))"
-                                                    class="cursor-pointer hover:text-cyan-700 hover:font-extrabold p-2"
-                                                    @click="showDetails(law.id)">{{ law.titre.slice(0,
-                                                        105) + ".." }}</td>
-                                                <td v-if="law.voteNom && (law.voteNom.oui.includes(this.selectedDeputy.name) || law.voteNom.non.includes(this.selectedDeputy.name) || law.voteNom.ab.includes(this.selectedDeputy.name))"
-                                                    class=" p-2">{{ law.date }}</td>
-                                                <td v-if="law.voteNom && law.voteNom.oui.includes(this.selectedDeputy.name)"
-                                                    class=" p-2"><span
-                                                        class="text-lg text-green-700 mdi mdi-thumb-up-outline"></span>
-                                                </td>
-                                                <td v-if="law.voteNom && law.voteNom.non.includes(this.selectedDeputy.name)"
-                                                    class="text-lg text-red-700 p-2"><span
-                                                        class="mdi mdi-thumb-down-outline"></span>
-                                                </td>
-
-                                                <td v-if="law.voteNom && law.voteNom.ab.includes(this.selectedDeputy.name)"
-                                                    class="text-lg text-slate-700 p-2"><span
-                                                        class="mdi mdi-snapchat"></span>
-                                                </td>
-                                            </tr>
-
-
-
-
-
-
-                                        </tbody>
-
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div v-if="showModal">
+                <Depudex :deputy="this.selectedDeputy" :laws="this.laws" :seances="this.seances" :showModal="this.showModal"
+                    v-on:switch_modal="switchModal" />
             </div>
+
+
             <div class="flex" v-if="selectedLaw">
                 <!-- Top Navigation -->
                 <!-- Main Content -->
-                <main class="container mx-auto px-4 py-6">
-                    <div class="">
-                        <h1 class="text-xl font-bold text-orange-200 mb-2">{{ selectedLaw.titre }}</h1>
-                    </div>
+                <SelectedLaw :law="this.selectedLaw" :seanceTags="this.seanceTags" />
 
-                    <div v-if="seanceTags" class="w-full flex-wrap flex items-center space-x-2  mt-4">
-                        <span v-for=" tag  in  seanceTags "
-                            class="inline-block bg-gray-200 rounded-full px-3 py-2 my-1 text-sm font-semibold text-gray-700">{{
-                                tag }}</span>
-
-
-                    </div>
-
-                    <div class="flex flex-row justify-between flex-wrap mt-4 ">
-                        <div
-                            class="w-full max-h-[55vh] lg:w-[68%] p-2 mr-4 shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50  text-center overflow-auto">
-                            <h3
-                                class="my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-500 p-1 text-center w-44">
-                                Chat</h3>
-                            <div class="max-w-full min-h-screen bg-black overscroll-auto text-green " id="conversation">
-                                <div v-for="(item, index) in this.selectedLaw.conversation" :key="index">
-                                    <div class="text-green-500" v-if="showItem[index]">{{ item }}</div>
-                                    <span class="prompt text-white"></span>
-                                    <span v-if="showLine(index)" color="green">{{
-                                        typeLine(item) }}</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div
-                            class=" w-full lg:w-[27%]  p-2 mr-4 shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50  text-center">
-                            <h3
-                                class="top-[-6%] relative font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-slate-500 p-1 text-center w-44">
-                                Texte intégral</h3>
-                            <p class=" text-left max-h-96 overflow-auto ...">{{ selectedLaw.body }}</p>
-                        </div>
-                    </div>
-                </main>
                 <div
                     class="sidebar border-l-4 border-black bg-gray-700 w-[12vw] flex flex-col items-center justify-start max-h-screen overflow-auto ">
                     <div class="logo flex items-center justify-center w-full min-h-[15vh] bg-no-repeat bg-cover"
@@ -258,22 +85,9 @@
                                             class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-500 relative inline-block">
                                             <span class="relative text-white"> POUR</span>
                                         </span> </div>
-                                    <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                                        <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
-                                            @click="showModal = true, showDetailsDep(deputy.name)">
-                                            <div
-                                                v-if="selectedLaw.voteNom.oui && selectedLaw.voteNom.oui.includes(deputy.name)">
-                                                <div class="flex items-center m-2 cursor-pointer">
-                                                    <div class="relative flex-shrink-0">
-                                                        <img class="w-8 h-8 rounded-full"
-                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
-                                                        <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <DepListByLaw :deputies="this.deputies" :voteCluster="this.selectedLaw.voteNom.oui"
+                                        v-on:switch_modal="switchModal" v-on:select_deputy="selectDeputy" />
+
                                 </div>
                                 <div id="contre">
                                     <div class="flex flex-col items-center justify-center py-2 px-2">
@@ -282,22 +96,9 @@
                                             <span class="relative text-white"> CONTRE </span>
                                         </span>
                                     </div>
-                                    <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                                        <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
-                                            @click="showModal = true, showDetailsDep(deputy.name)">
-                                            <div
-                                                v-if="selectedLaw.voteNom.non && selectedLaw.voteNom.non.includes(deputy.name)">
-                                                <div class="flex items-center m-2 cursor-pointer">
-                                                    <div class="relative flex-shrink-0">
-                                                        <img class="w-8 h-8 rounded-full"
-                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
-                                                        <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <DepListByLaw :deputies="this.deputies" :voteCluster="this.selectedLaw.voteNom.non"
+                                        v-on:switch_modal="switchModal" v-on:select_deputy="selectDeputy" />
+
                                 </div>
                                 <div id="abstentions">
                                     <div class="flex flex-col items-center justify-center py-2 px-2">
@@ -306,22 +107,9 @@
                                             <span class="relative text-white"> ABSTENTIONS </span>
                                         </span>
                                     </div>
-                                    <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                                        <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
-                                            @click="showModal = true, showDetailsDep(deputy.name)">
-                                            <div
-                                                v-if="selectedLaw.voteNom.ab && selectedLaw.voteNom.ab.includes(deputy.name)">
-                                                <div class="flex items-center m-2 cursor-pointer">
-                                                    <div class="relative flex-shrink-0">
-                                                        <img class="w-8 h-8 rounded-full"
-                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
-                                                        <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <DepListByLaw :deputies="this.deputies" :voteCluster="this.selectedLaw.voteNom.ab"
+                                        v-on:switch_modal="switchModal" v-on:select_deputy="selectDeputy" />
+
                                 </div>
                                 <div id="absents">
                                     <div class="flex flex-col items-center justify-center py-2 px-2">
@@ -330,21 +118,10 @@
                                             <span class="relative text-white"> ABSENTS </span>
                                         </span>
                                     </div>
-                                    <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                                        <div v-for="( deputy, index ) in  deputies " :key="deputy.name"
-                                            @click="showModal = true, showDetailsDep(deputy.name)">
-                                            <div v-if="absents && absents.includes(deputy.name)">
-                                                <div class="flex items-center m-2 cursor-pointer">
-                                                    <div class="relative flex-shrink-0">
-                                                        <img class="w-8 h-8 rounded-full"
-                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`">
-                                                        <img class="absolute bottom-0 right-0 block w-2.5 h-2.5 rounded-full "
-                                                            :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.parti}.jpg`" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <DepListByLaw :deputies="this.deputies" :voteCluster="this.absents"
+                                        v-on:switch_modal="switchModal" v-on:select_deputy="selectDeputy" />
+
+
                                 </div>
                             </div>
                             <li :class="{ 'active': activeTab === 'tab2' }"
@@ -360,15 +137,8 @@
                                         <span class="relative text-white"> POUR</span>
                                     </span> </div>
                                 <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                                    <div v-for="( count, parti ) in  selectedLawByParti.pour "
-                                        class="flex shrink items-center">
-                                        <div v-if="count > 0"
-                                            class="text-slate-200  m-2 font-semibold flex flex-col items-center justify-center flex-shrink-0">
-                                            <img class="w-8 h-8 rounded-full"
-                                                :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
-                                            <p>{{ count }}</p>
-                                        </div>
-                                    </div>
+                                    <PartiesListByLaw :law="this.selectedLaw" :deputies="this.deputies" :avis="'oui'" />
+
                                 </div>
                             </div>
                             <div id="contre">
@@ -378,17 +148,8 @@
                                         <span class="relative text-white"> CONTRE </span>
                                     </span>
                                 </div>
-                                <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                                    <div v-for="( count, parti ) in  selectedLawByParti.contre "
-                                        class="shrink flex justify-center items-center">
-                                        <div v-if="count > 0"
-                                            class="text-slate-200 font-semibold flex flex-col items-center justify-center flex-shrink-0  m-2">
-                                            <img class="w-8 h-8 rounded-full"
-                                                :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
-                                            <p>{{ count }}</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                <PartiesListByLaw :law="this.selectedLaw" :deputies="this.deputies" :avis="'non'" />
+
                             </div>
                             <div id="abst">
                                 <div class="flex flex-col items-center justify-center py-2 px-2">
@@ -397,35 +158,14 @@
                                         <span class="relative text-white"> ABSTENTIONS </span>
                                     </span>
                                 </div>
-                                <div class="flex  items-center flex-wrap justify-center py-2 px-2">
-                                    <div v-for="( count, parti ) in  selectedLawByParti.ab "
-                                        class="shrink flex justify-center items-center">
-                                        <div v-if="count > 0"
-                                            class="text-slate-200 font-semibold flex flex-col items-center justify-center flex-shrink-0  m-2">
-                                            <img class="w-8 h-8 rounded-full"
-                                                :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${parti}.jpg`">
-                                            <p>{{ count }}</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                <PartiesListByLaw :law="this.selectedLaw" :deputies="this.deputies" :avis="'ab'" />
+
                             </div>
                         </div>
                     </div>
                     <div v-if="selectedLaw && !selectedLaw.voteNom">
-                        <div class=" flex flex-col items-center justify-center py-2 px-2 min-h-[30vw] h-full">
+                        <NoLawSideBar :law="this.selectedLaw" />
 
-                            <span class="relative text-white text-center text-xl"> AUCUN VOTE SUR CETTE
-                                DISCUSSION </span>
-                            <span v-if="this.selectedLaw.secType" class="relative text-white text-center p-3">IL
-                                A SUREMENT EU
-                                LIEU
-                                PLUS TARD DANS LA SEANCE: <span @click="search = this.selectedLaw.titre.slice(0, 40)"
-                                    class="font-bold bg-slate-300 text-sky-950 underline cursor-pointer">CLIQUEZ
-                                    ICI </span>
-                                POUR TROUVER LA DISUCSSION LIEE AU VOTE</span>
-                            <span v-else class="relative text-white text-center p-3">{{ this.selectedLaw.type
-                            }}</span>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -433,7 +173,7 @@
                 <div
                     class="grid grid-rows-2 grid-cols-3 sm:grid-cols-2 lg:grid-cols-2 lg:grid-rows-3 2xl:grid-cols-3 h-screen gap-4 p-4 ">
                     <div
-                        class="bg-gray-800 rounded-lg p-4 col-span-2 lg:col-span-1 2xl:col-span-2 bg-[url('./src/assets/img/Moods/emptyparl2.jpg')] bg-opacity-20 bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center min-h-[45vh]">
+                        class="bg-gray-800 rounded-lg p-4 col-span-2 lg:col-span-1 2xl:col-span-2 bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/emptyparl2.jpg')] bg-opacity-20 bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center min-h-[45vh]">
 
                         <div
                             class="text-white font-bold text-3xl mb-2 before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-green-500 relative inline-block">
@@ -583,6 +323,11 @@ import '@mdi/font/css/materialdesignicons.min.css';
 import { ref, watchEffect } from 'vue'
 import { mapState } from 'vuex';
 import LineChart from '../components/HomeChart.vue'
+import Depudex from '../components/Depudex.vue';
+import SelectedLaw from '../components/SelectedLaw.vue';
+import DepListByLaw from '../components/DepListByLaw.vue';
+import PartiesListByLaw from '../components/PartiesListByLaw.vue';
+import NoLawSideBar from '../components/NoLawSideBar.vue';
 
 export default {
 
@@ -604,7 +349,7 @@ export default {
             bgImage,
         }
     },
-    components: { LineChart },
+    components: { LineChart, Depudex, Depudex, SelectedLaw, DepListByLaw, PartiesListByLaw, NoLawSideBar },
     computed: {
         ...mapState({
             laws: state => state.searchedLaws,
@@ -618,19 +363,14 @@ export default {
             activeTab: 'tab1',
             scaleX: 1,
             selectedLaw: null,
-            selectedLawByParti: null,
             selectedDeputy: null,
-            selectedTab: 'autres-mandats',
             showModal: false,
             absents: null,
             seance: null,
-            seanceTags: [],
             search: '',
-            lawsForHistory: this.laws,
-            showItem: [],
+
             intervalId: null,
-            currentIndex: 0,
-            currentIndexL: 0,
+
 
             countdownDate: new Date('2023-05-09T00:00:00'),
             days: 0,
@@ -643,35 +383,23 @@ export default {
         };
     },
     methods: {
+        switchModal(element) {
+            this.showModal = element
+        },
+        selectDeputy(deputyName) {
+            const deputy = this.deputies.filter(deputy =>
+                deputy.name === deputyName)
+
+            this.selectedDeputy = deputy[0]
+
+        },
+
         toggleScaleX() {
             this.scaleX = this.scaleX === 1 ? -1 : 1;
         },
-        getLawTypes() {
-            const cats = []
-            const laws = this.laws
-            laws.forEach(law => {
-                if (!cats.includes(law.type) && law.type) { cats.push(law.type) }
-            })
-            this.searchCats = cats
-            this.searchByTypeDisplay = true
-            console.log(this.searchCats)
 
-        },
 
-        calculDepPresence(deputyName) {
-            const seances = this.seances
-            const presenceMax = seances.length
-            let presenceReal = 0
-            seances.forEach(seance => {
 
-                if (seance.deputies.absence.includes(deputyName)) {
-                    presenceReal++
-                }
-            })
-
-            let presenceFin = Math.round((presenceMax - presenceReal) / presenceMax * 100)
-            return presenceFin
-        },
 
         getLaziest() {
 
@@ -779,73 +507,6 @@ export default {
             return mostFrequent;
         },
 
-        calculateRateByParti() {
-            if (this.selectedLaw.voteNom) {
-                const repartition = {
-
-                    pour: {
-                        PS: 0,
-                        MR: 0,
-                        cdH: 0,
-                        ECOLO: 0,
-                        PTB: 0,
-                        DéFI: 0,
-                    },
-                    contre: {
-                        PS: 0,
-                        MR: 0,
-                        cdH: 0,
-                        ECOLO: 0,
-                        PTB: 0,
-                        DéFI: 0,
-                    },
-                    ab: {
-                        PS: 0,
-                        MR: 0,
-                        cdH: 0,
-                        ECOLO: 0,
-                        PTB: 0,
-                        DéFI: 0,
-                    }
-                }
-
-                if (this.selectedLaw.voteNom.oui) {
-                    for (let i = 0; i < this.selectedLaw.voteNom.oui.length; i++) {
-                        const deputyOui = this.deputies.filter(deputy =>
-                            deputy.name === this.selectedLaw.voteNom.oui[i]
-                        )[0];
-
-                        if (deputyOui) {
-
-                            const parti = deputyOui.parti
-                            repartition.pour[parti]++
-                        }
-                    }
-                }
-                if (this.selectedLaw.voteNom.non) {
-                    for (let i = 0; i < this.selectedLaw.voteNom.non.length; i++) {
-                        const deputyNon = this.deputies.filter(deputy =>
-                            deputy.name === this.selectedLaw.voteNom.non[i]
-                        )[0]; if (deputyNon) {
-                            const parti = deputyNon.parti
-                            repartition.contre[parti]++
-                        }
-                    }
-                }
-                if (this.selectedLaw.voteNom.ab) {
-                    for (let i = 0; i < this.selectedLaw.voteNom.ab.length; i++) {
-                        const deputyAbst = this.deputies.filter(deputy =>
-                            deputy.name === this.selectedLaw.voteNom.ab[i]
-                        )[0]; if (deputyAbst) {
-                            const parti = deputyAbst.parti
-                            repartition.ab[parti]++
-                        }
-                    }
-                }
-                return repartition
-            }
-
-        },
         updateCountdown() {
             const now = new Date().getTime();
             const distance = this.countdownDate - now;
@@ -857,7 +518,7 @@ export default {
         showDetails(itemId) {
             this.selectedLaw = null
             const item = this.laws.find(law => law.id === itemId)
-            console.log(item)
+
             this.selectedLaw = item
             const seance = this.seances.find(seances => seances.id === this.selectedLaw.seance)
             this.seance = seance
@@ -873,40 +534,9 @@ export default {
 
             this.selectedDeputy = item[0]
         },
-        startInterval() {
-            console.log('intervale started')
-            this.showItem = [];
 
-            this.showItem = Array(this.selectedLaw.conversation.length).fill(false);
-            console.log(this.showItem, this.currentIndex)
 
-            this.intervalId = setInterval(() => {
-                console.log(this.showItem, this.currentIndex, this.intervalId, this.selectedLaw.conversation.length)
-                if (this.currentIndex >= this.selectedLaw.conversation.length) {
-                    console.log('interval cleared')
-                    this.currentIndex = 0;
-                    clearInterval(this.intervalId);
 
-                    return;
-                }
-                this.showItem[this.currentIndex] = true;
-                this.currentIndex++;
-            }, this.selectedLaw.conversation[this.currentIndex].split('').length * 80);
-        },
-
-        showLine(index) {
-            return index <= this.currentIndex;
-        },
-        typeLine(line) {
-            return line.slice(0, this.currentIndexL);
-        },
-        startTyping() {
-            setInterval(() => {
-                if (this.currentIndexL < this.lines[this.lines.length - 1].length) {
-                    this.currentIndexL++;
-                }
-            }, 100);
-        },
 
         filteredItems() {
 
@@ -928,23 +558,10 @@ export default {
         setInterval(() => {
             this.toggleScaleX();
         }, 5000);
-        if (this.selectedLaw !== null) {
-            this.startTyping();
-        }
-        this.updateCountdown();
-        setInterval(this.updateCountdown, 1000)
+
         this.getLaziest()
         this.getDepMood()
     },
 
-    watch: {
-        selectedLaw(value) {
-            console.log(value)
-            if (value) {
-                this.startInterval();
-            } else {
-                clearInterval(this.intervalId);
-            }
-        },
-    },
+
 }; </script>
