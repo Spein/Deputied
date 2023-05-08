@@ -165,7 +165,7 @@
                         <DepPalmares :deputies="this.deputies" :seances="this.seances" />
 
                         <div class="relative lg:col-span-2 grid-cols-1 2xl:col-span-2 bg-gray-800 rounded-lg p-4 ">
-                            <LastArticles :laws="this.laws" v-on:select_law="selectLaw" />
+                            <LastArticles :laws="this.laws" v-on:Select_Law="selectLaw" />
 
 
                         </div>
@@ -267,42 +267,10 @@ export default {
         },
 
 
-        showDetails(itemId) {
-            this.selectedLaw = null
-            const item = this.laws.find(law => law.id === itemId)
-
-            this.selectedLaw = item
-            const seance = this.seances.find(seances => seances.id === this.selectedLaw.seance)
-            this.seance = seance
-            this.absents = seance.deputies.absence
-            this.seanceTags = seance.tags.trim().replace(/\s*\–/, '').split('–')
-            let slByParti = this.calculateRateByParti() ? this.calculateRateByParti() : null
-            this.selectedLawByParti = slByParti
-        },
-        showDetailsDep(itemName) {
-            console.log('showDetailsDep', itemName)
-            const item = this.deputies.filter(deputy =>
-                deputy.name === itemName)
-
-            this.selectedDeputy = item[0]
-        },
 
 
 
 
-        filteredItems() {
-
-            if (!this.search) {
-                return this.laws.filter(law =>
-                    Object.keys(law).includes('voteNom')
-                );
-            }
-
-            const searchLower = this.search.toLowerCase();
-            return this.laws.filter(law =>
-                law.body.toLowerCase().includes(searchLower)
-            );
-        }
     },
 
 

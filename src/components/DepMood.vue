@@ -1,10 +1,10 @@
 <template>
-    <div v-if="depMood && bgColor" @click="switchModal(), selectDeputy(this.depMood[0].name)"
+    <div v-if="depMood" @click="switchModal(), selectDeputy(this.depMood[0].name)"
         class=" relative cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  p-[8px] border-2 border-slate-900 font-sans bg-lime-50 md:h-60 lg:h-52 2xl:h-[22vh]  text-center">
         <div class="w-full h-full flex flex-col justify-between ">
 
             <span
-                :class="`before:block before:absolute before:-inset-1 px-2 before:bg-${this.bgColor} relative inline-block `">
+                :class="`before:block before:absolute before:-inset-1 px-2 before:bg${this.bgColor} relative inline-block `">
                 <span class="relative text-slate-900 font-extrabold text-lg">
                     <slot></slot>
                 </span>
@@ -36,7 +36,7 @@ export default {
     name: 'DepMood',
     data() {
         return {
-            bgColor: null,
+            bgColor: '-red-300',
             depMood: null
         };
     },
@@ -62,9 +62,9 @@ export default {
     methods: {
         setbgColor(avis) {
 
-            if (avis === "oui") { this.bgColor = 'green-300' }
-            else if (avis === "non") { this.bgColor = 'red-300' }
-            else if (avis === "ab") { this.bgColor = 'slate-300' }
+            if (avis === "oui") { this.bgColor = '-green-300' }
+            else if (avis === "non") { this.bgColor = '-red-300' }
+            else if (avis === "ab") { this.bgColor = '-slate-300' }
         },
         getDepMood() {
 
@@ -125,6 +125,12 @@ export default {
     watch: {
         laws(value) {
             console.log(value)
+            if (value) {
+                this.getDepMood()
+            }
+        },
+        depMood(value) {
+            console.log(this.bgColor)
             if (value) {
                 this.getDepMood()
             }

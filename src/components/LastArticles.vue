@@ -34,7 +34,7 @@ export default {
     },
     methods: {
         selectLaw(LawId) {
-            this.$emit('select_law', LawId)
+            this.$emit('Select_Law', LawId)
         }
     },
     mounted() {
