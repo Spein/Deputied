@@ -1,6 +1,6 @@
 <template>
     <div v-if="depMood" @click="switchModal(), selectDeputy(this.depMood[0].name)"
-        class=" relative cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  p-[8px] border-2 border-slate-900 font-sans bg-lime-50 md:h-60 lg:h-52 2xl:h-[22vh]  text-center">
+        class=" relative cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  p-[8px] border-2 border-slate-900 font-sans bg-lime-50 h-96 md:h-60 lg:h-52 2xl:h-[22vh]  text-center">
         <div class="w-full h-full flex flex-col justify-between ">
 
             <span
@@ -123,13 +123,13 @@ export default {
 
     },
     watch: {
-        laws(value) {
+        bgColor(value) {
             console.log(value)
             if (value) {
                 this.getDepMood()
             }
         },
-        depMood(value) {
+        laws(value) {
             console.log(this.bgColor)
             if (value) {
                 this.getDepMood()

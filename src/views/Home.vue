@@ -149,8 +149,7 @@
                 </div>
             </div>
             <div v-else>
-                <div
-                    class="grid grid-rows-2 grid-cols-3 sm:grid-cols-2 lg:grid-cols-2 lg:grid-rows-3 2xl:grid-cols-3 h-screen gap-4 p-4 ">
+                <div class="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 lg:grid-rows-3 2xl:grid-cols-3 h-screen gap-4 p-4 ">
                     <HomeCount />
 
                     <div

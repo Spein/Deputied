@@ -37,6 +37,7 @@ export default {
             this.$emit('Select_Law', LawId)
         }
     },
+    emits: ['select_Law'],
     mounted() {
 
 
