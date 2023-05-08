@@ -55,7 +55,7 @@
             </div>
         </div>
         <!-- Main Content -->
-        <div class="main-content col-span-9  bg-gray-800 p-3 ">
+        <div class="main-content col-span-10  bg-gray-800 p-3 ">
             <div class="absolute z-10 w-[30vw] bg-slate-50 top-36 left-1/2 flex flex-wrap  border-4 border-gray-700 rounded-lg "
                 v-if="showModal">
                 <div class="bg-gray-900 min-w-[100%] text-white py-1 px-2 font-bold text-sm flex justify-between">
