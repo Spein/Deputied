@@ -248,7 +248,7 @@ export default {
             bgImage,
         }
     },
-    components: { LineChart, Depudex, Depudex, SelectedLaw, DepListByLaw, PartiesListByLaw, NoLawSideBar, HomeCount, DepPalmares, DepMood, LastArticles, FilteredSearch },
+    components: { LineChart, Depudex, Depudex, SelectedLaw, DepListByLaw, PartiesListByLaw, HomeCount, DepPalmares, DepMood, LastArticles, FilteredSearch },
     computed: {
         ...mapState({
             laws: state => state.searchedLaws,
