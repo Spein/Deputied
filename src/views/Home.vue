@@ -67,8 +67,8 @@
                 <SelectedLaw :law="this.selectedLaw" :seanceTags="this.seanceTags" />
 
                 <div
-                    class="sidebar border-l-4 border-black bg-gray-700 flex flex-col items-center justify-start max-h-screen overflow-auto ">
-                    <div class="logo flex items-center justify-center w-full min-h-[15vh] bg-no-repeat bg-cover"
+                    class="sidebar border-l-4 border-black bg-gray-700 flex lg:w-1/3 xl:w-1/4 flex-col items-center justify-start max-h-screen overflow-auto ">
+                    <div class="logo flex items-center justify-center w-full  min-h-[15vh] bg-no-repeat bg-cover"
                         :style="` background-image: url(${bgImage}); transform:scaleX(${this.scaleX});`">
                     </div>
                     <div v-if="selectedLaw && selectedLaw.voteNom">
@@ -163,7 +163,7 @@
                         </div>
                     </div>
                     <div v-if="selectedLaw && !selectedLaw.voteNom">
-                        <NoLawSideBar :law="this.selectedLaw" />
+                        <NoVoteSidebar :law="this.selectedLaw" />
 
                     </div>
                 </div>
@@ -227,7 +227,7 @@ import DepPalmares from '../components/DepPalmares.vue';
 import DepMood from '../components/DepMood.vue'
 import LastArticles from '../components/LastArticles.vue'
 import FilteredSearch from '../components/FilteredSearch.vue'
-import NoLawSideBar from '../components/NoLawSideBar.vue';
+import NoVoteSidebar from '../components/NoVoteSidebar.vue';
 export default {
 
     setup() {
@@ -248,7 +248,7 @@ export default {
             bgImage,
         }
     },
-    components: { LineChart, Depudex, Depudex, SelectedLaw, DepListByLaw, PartiesListByLaw, HomeCount, DepPalmares, DepMood, LastArticles, FilteredSearch, NoLawSideBar },
+    components: { LineChart, Depudex, Depudex, SelectedLaw, DepListByLaw, PartiesListByLaw, HomeCount, DepPalmares, DepMood, LastArticles, FilteredSearch, NoVoteSidebar },
     computed: {
         ...mapState({
             laws: state => state.searchedLaws,

@@ -14,7 +14,7 @@
 
         <div class="flex flex-row justify-between flex-wrap mt-4 ">
             <div
-                class="w-full max-h-[55vh] lg:w-[68%] p-2 mr-4 shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50  text-center overflow-auto">
+                class="w-full max-h-[55vh] xl:w-[68%] p-2 mr-4 shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-50  text-center overflow-auto">
                 <h3
                     class="my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  border-2 border-slate-900 font-sans bg-lime-500 p-1 text-center w-44">
                     Chat</h3>
