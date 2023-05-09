@@ -163,7 +163,7 @@
                         </div>
                     </div>
                     <div v-if="selectedLaw && !selectedLaw.voteNom">
-                        <NoLawSideBar :law="this.selectedLaw"></NoLawSideBar>/>
+                        <NoLawSideBar :law="this.selectedLaw" />
 
                     </div>
                 </div>
