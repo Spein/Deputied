@@ -163,7 +163,7 @@
                         </div>
                     </div>
                     <div v-if="selectedLaw && !selectedLaw.voteNom">
-                        <!--   <NoLawSideBar :law="this.selectedLaw" /> -->
+                        <NoLawSideBar :law="this.selectedLaw" />
 
                     </div>
                 </div>
@@ -227,7 +227,7 @@ import DepPalmares from '../components/DepPalmares.vue';
 import DepMood from '../components/DepMood.vue'
 import LastArticles from '../components/LastArticles.vue'
 import FilteredSearch from '../components/FilteredSearch.vue'
-/* import NoLawSideBar from '../components/NoLawSideBar.vue'; */
+import NoLawSideBar from '../components/NoLawSideBar.vue';
 export default {
 
     setup() {
@@ -248,7 +248,7 @@ export default {
             bgImage,
         }
     },
-    components: { LineChart, Depudex, Depudex, SelectedLaw, DepListByLaw, PartiesListByLaw, HomeCount, DepPalmares, DepMood, LastArticles, FilteredSearch },
+    components: { LineChart, Depudex, Depudex, SelectedLaw, DepListByLaw, PartiesListByLaw, HomeCount, DepPalmares, DepMood, LastArticles, FilteredSearch, NoLawSideBar },
     computed: {
         ...mapState({
             laws: state => state.searchedLaws,
