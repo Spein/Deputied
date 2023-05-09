@@ -10,8 +10,7 @@
                 class="font-bold bg-slate-300 text-sky-950 underline cursor-pointer">CLIQUEZ
                 ICI </span>
             POUR TROUVER LA DISUCSSION LIEE AU VOTE</span>
-        <span v-else class="relative text-white text-center p-3">{{ law.type
-        }}</span>
+        <span v-else class="relative text-white text-center p-3">{{ law.type }}</span>
     </div>
 </template>
 <script>
