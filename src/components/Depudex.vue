@@ -1,17 +1,18 @@
 <template>
-    <div class="absolute z-10 w-[40vw] bg-slate-50 top-36 left-1/2 flex flex-wrap  border-4 border-gray-700 rounded-lg ">
-        <div class="bg-gray-900 min-w-[100%] text-white py-1 px-2 font-bold text-sm flex justify-between">
+    <div
+        class="absolute z-10 w-3/4 bg-slate-50 lg:top-36 lg:left-1/2 lg:w-1/2 flex flex-col flex-wrap  border-4 border-gray-700 rounded-lg ">
+        <div class="bg-gray-900  text-white py-1 px-2 font-bold text-sm flex justify-between">
             <h5>DÉPUDEX</h5>
             <span class="mdi mdi-close" @click="switchModal()"></span>
         </div>
-        <div class="bg-gray-300  flex flex-wrap">
-            <div class="bg-white border-4 border-gray-700 flex justify-center items-center w-1/3">
-                <div class=" justify-between items-center w-64 flex ">
-                    <img :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`" alt="image"
-                        class=" sepia-[.5] w-full h-full">
-                </div>
+        <div class="bg-gray-300 w-full   flex flex-wrap">
+
+            <div class="  flex w-max">
+                <img :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`" alt="image"
+                    class=" sepia-[.5] w-screen flex-grow sm:w-full    ">
+
             </div>
-            <div class="bg-gray-800  py-2 px-4 text-white text-sm w-2/3">
+            <div class="bg-gray-800 flex-grow py-2 px-4 text-white text-sm w-full sm:w-7/12">
                 <p class="mb-2"><span class="font-bold">Nom:</span> {{
                     deputy.surname }} {{ deputy.name }}</p>
                 <p class="mb-2"><span class="font-bold">Parti:</span> {{
@@ -26,9 +27,9 @@
                 <p class="mb-2"><span class="font-bold">Wikipedia:</span><a class=" underline" href="/">Lien
                         vers le wiki</a></p>
             </div>
-            <div class="max-h-96 overflow-auto  p-4 text-white text-xs flex">
-                <div class="flex flex-col justify-start items-start">
-                    <div class="flex min-w-100 text-slate-700">
+            <div class="max-h-96 overflow-auto max-w-full p-4 text-white  flex-wrap text-xs flex">
+                <div class="flex flex-col max-w-full justify-start items-start">
+                    <div class="flex min-w-full text-slate-700">
                         <h5 :class="{ 'bg-slate-700 text-slate-100': selectedTab === 'autres-mandats' }"
                             class="shadow-[5px_5px_rgba(0,0,0,0.4)]  cursor-pointer border-4 text-sm border-slate-600 font-extrabold mx-3 p-2  hover:bg-slate-700 hover:text-slate-100"
                             @click="selectedTab = 'autres-mandats'">Autres mandats
@@ -38,7 +39,7 @@
                             @click="selectedTab = 'historique'">
                             Historique</h5>
                     </div>
-                    <div class="flex flex-col py-4">
+                    <div class="flex flex-col max-w-full py-4">
                         <div v-show="selectedTab === 'autres-mandats'" class="px-4 pb-4">
                             <table class="min-w-full divide-y divide-transparent">
                                 <thead>

@@ -1,16 +1,16 @@
 <template>
     <div v-if="depMood" @click="switchModal(), selectDeputy(this.depMood[0].name)"
-        class=" relative cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]  p-[8px] border-2 border-slate-900 font-sans bg-lime-50 h-96 md:h-60 lg:h-52 2xl:h-[22vh]  text-center">
+        class=" relative cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)]   bg-lime-50 p-[8px] border-2 border-slate-900 font-sansh-96 h-60 md:h-60 lg:h-52 2xl:h-[22vh]  text-center">
         <div class="w-full h-full flex flex-col justify-between ">
 
-            <span
-                :class="`before:block before:absolute before:-inset-1 px-2 before:bg${this.bgColor} relative inline-block `">
+            <span :class="`before:block before:absolute before:-inset-1 px-2  relative inline-block `"
+                :style="`background-color:${this.bgColor}`">
                 <span class="relative text-slate-900 font-extrabold text-lg">
-                    <slot></slot>
+                    <slot />
                 </span>
             </span>
-            <div
-                :class="`bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/${this.avis}${this.depMood[0].sexe}.jpg')] bg-no-repeat bg-cover bg-center w-full h-full`">
+            <div :class="`bg-no-repeat bg-cover bg-center w-full h-full `"
+                :style="`background-image: url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/${this.avis}${this.depMood[0].sexe}.jpg')`">
 
             </div>
 
@@ -36,7 +36,7 @@ export default {
     name: 'DepMood',
     data() {
         return {
-            bgColor: '-red-300',
+            bgColor: '',
             depMood: null
         };
     },
@@ -62,9 +62,9 @@ export default {
     methods: {
         setbgColor(avis) {
 
-            if (avis === "oui") { this.bgColor = '-green-300' }
-            else if (avis === "non") { this.bgColor = '-red-300' }
-            else if (avis === "ab") { this.bgColor = '-slate-300' }
+            if (avis === "oui") { this.bgColor = '#0080006e' }
+            else if (avis === "non") { this.bgColor = '#ff000078' }
+            else if (avis === "ab") { this.bgColor = '#808080a8 ' }
         },
         getDepMood() {
 

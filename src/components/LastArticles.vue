@@ -1,9 +1,9 @@
 <template>
     <h2 class="text-white font-bold text-xl mb-2">Derniers débats</h2>
 
-    <li v-for="( law, index ) in  this.laws " :key="law.id" @click="selectLaw(law.id)"
+    <li v-for="( law, index ) in  this.laws.slice(0, 5) " :key="law.id" @click="selectLaw(law.id)"
         class="hover:bg-slate-400 list-none transition-colors	duration-100 cursor-pointer">
-        <div v-if="index < 5" class="text-[12px] hover:text-slate-800 first-line:uppercase first-line:tracking-widest
+        <div class="text-[12px] hover:text-slate-800 first-line:uppercase first-line:tracking-widest
                                     first-letter:text-5xl first-letter:font-bold first-letter:text-slate-500
                                   first-letter:mr-3 lowercase first-letter:float-left text-slate-400  my-2 ">
             {{ law.titre.slice(0, 185) + ".." }}

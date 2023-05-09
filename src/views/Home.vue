@@ -28,26 +28,46 @@
 
             </div>
         </div> -->
-        <div class=" sidebar  bg-gray-700 col-span-2 flex flex-col items-start justify-start max-h-screen overflow-auto ">
+        <div
+            class="sidebar absolute z-10 lg:relative bg-gray-700 col-span-2 flex flex-col items-start justify-start max-h-full lg:max-h-[105vh]  overflow-auto">
+            <div class=" w-full flex items-center justify-between px-4 py-3 lg:hidden">
+                <button @click="isMobileNavOpen = !isMobileNavOpen" type="button"
+                    class="text-gray-400 hover:text-white focus:outline-none focus:text-white" aria-controls="mobile-menu"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle mobile menu</span>
+                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                        <path v-if="!isMobileNavOpen" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3 6H21V8H3V6ZM3 11H21V13H3V11ZM3 16H21V18H3V16Z" />
+                        <path v-else fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3 6H21V8H3V6ZM3 11H21V13H3V11ZM3 16H21V18H3V16Z" />
+                    </svg>
+                </button>
+                <span v-if="!isMobileNavOpen" class="mdi text-white font-bold mdi-close sticky"
+                    @click="isMobileNavOpen = !isMobileNavOpen"></span>
+            </div>
 
-            <FilteredSearch :laws="this.laws" v-on:select_law="selectLaw" />
 
+
+            <nav class="lg:flex lg:flex-col lg:items-start lg:justify-start flex-1 px-1 pt-6 pb-4"
+                :class="{ 'hidden': isMobileNavOpen }">
+                <FilteredSearch :laws="this.laws" v-on:select_law="selectLaw" v-on:switch_nav=switchNav() />
+            </nav>
         </div>
         <!-- Main Content -->
-        <div class="main-content col-span-10  bg-gray-800 p-3 ">
+        <div class="main-content grid col-span-12 lg:col-span-10  bg-gray-800 p-3 ">
             <div v-if="showModal">
                 <Depudex :deputy="this.selectedDeputy" :laws="this.laws" :seances="this.seances" :showModal="this.showModal"
                     v-on:switch_modal="switchModal" v-on:select_law="selectLaw" />
             </div>
 
 
-            <div class="flex" v-if="selectedLaw">
+            <div class="flex flex-col lg:flex-row" v-if="selectedLaw">
                 <!-- Top Navigation -->
                 <!-- Main Content -->
                 <SelectedLaw :law="this.selectedLaw" :seanceTags="this.seanceTags" />
 
                 <div
-                    class="sidebar border-l-4 border-black bg-gray-700 w-[12vw] flex flex-col items-center justify-start max-h-screen overflow-auto ">
+                    class="sidebar border-l-4 border-black bg-gray-700 flex flex-col items-center justify-start max-h-screen overflow-auto ">
                     <div class="logo flex items-center justify-center w-full min-h-[15vh] bg-no-repeat bg-cover"
                         :style="` background-image: url(${bgImage}); transform:scaleX(${this.scaleX});`">
                     </div>
@@ -149,11 +169,12 @@
                 </div>
             </div>
             <div v-else>
-                <div class="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 lg:grid-rows-3 2xl:grid-cols-3 h-screen gap-4 p-4 ">
+                <div
+                    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-rows-3 lg:grid-cols-3 2xl:grid-cols-3 h-screen gap-4 p-4 ">
                     <HomeCount />
 
                     <div
-                        class="bg-gray-800 rounded-lg p-4 grid grid-cols-2 2xl:grid-cols-2  col-span-2 lg:col-span-1 gap-6">
+                        class="bg-gray-800 rounded-lg p-4 grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-2  col-span-2 lg:col-span-1 gap-6">
 
                         <DepMood :deputies="this.deputies" :laws="this.laws" :avis="'oui'" v-on:select_deputy="selectDeputy"
                             v-on:switch_modal="switchModal">Oui-Oui</DepMood>
@@ -168,15 +189,17 @@
                         <DepPalmares :deputies="this.deputies" :seances="this.seances" v-on:select_deputy="selectDeputy"
                             v-on:switch_modal="switchModal" />
 
-                        <div class="relative lg:col-span-2 grid-cols-1 2xl:col-span-2 bg-gray-800 rounded-lg p-4 ">
+                        <div
+                            class="relative md:col-span-2 lg:col-span-2 grid-cols-1 2xl:col-span-2 bg-gray-800 rounded-lg p-4 ">
                             <LastArticles :laws="this.laws" v-on:Select_Law="selectLaw" />
 
 
                         </div>
                     </div>
-                    <div class="lg:col-span-1 grid-cols-1  2xl:col-span-2    grid bg-gray-800 rounded-lg p-4  relative">
+                    <div
+                        class="lg:col-span-1 grid-cols-1  md:col-span-2 2xl:col-span-2    grid bg-gray-800 rounded-lg p-4  ">
                         <h2 class="text-white font-bold text-xl mb-2  ">Graphique</h2>
-                        <div class="relative lg:w-[40vw] 2xl:w-[45vw] h-[40vw]">
+                        <div class="  min-h-[50vh] w-full lg:w-[55vw] ">
                             <LineChart />
                         </div>
 
@@ -199,12 +222,12 @@ import Depudex from '../components/Depudex.vue';
 import SelectedLaw from '../components/SelectedLaw.vue';
 import DepListByLaw from '../components/DepListByLaw.vue';
 import PartiesListByLaw from '../components/PartiesListByLaw.vue';
-import NoLawSideBar from '../components/NoLawSideBar.vue';
 import HomeCount from '../components/HomeCount.vue';
 import DepPalmares from '../components/DepPalmares.vue';
 import DepMood from '../components/DepMood.vue'
 import LastArticles from '../components/LastArticles.vue'
 import FilteredSearch from '../components/FilteredSearch.vue'
+import NoLawSideBar from '../components/NoLawSideBar.vue';
 export default {
 
     setup() {
@@ -244,12 +267,16 @@ export default {
             absents: null,
             seance: null,
             search: '',
-            seanceTags: []
+            seanceTags: [],
+            isMobileNavOpen: false
         };
     },
     methods: {
         switchModal(element) {
             this.showModal = element
+        },
+        switchNav(element) {
+            this.isMobileNavOpen = !element
         },
         selectDeputy(deputyName) {
             console.log('rer')

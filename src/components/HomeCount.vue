@@ -1,6 +1,6 @@
 <template>
     <div
-        class="bg-gray-800 rounded-lg p-4 col-span-2 lg:col-span-1 2xl:col-span-2 bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/emptyparl2.jpg')] bg-opacity-20 bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center min-h-[45vh]">
+        class="bg-gray-800 rounded-lg p-4 grid-cols-1 col-span-2 grid-rows-4 sm:grid-cols-1  lg:col-span-2 2xl:col-span-2 bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/emptyparl2.jpg')] bg-opacity-20 bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center">
 
         <div
             class="text-white font-bold text-3xl mb-2 before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-green-500 relative inline-block">

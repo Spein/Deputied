@@ -1,6 +1,6 @@
 <template>
     <div v-if="depPalm" @click="switchModal(), selectDeputy(this.depPalm.laziest[0].name)"
-        class=" relative cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)] p-[8px] border-2 border-slate-900 font-sans bg-lime-50  md:h-60 lg:h-52 2xl:h-[22vh]  text-center">
+        class=" relative cursor-pointer rounded-lg my-2 font-semibold shadow-[5px_5px_rgba(0,0,0)] p-[8px] border-2 border-slate-900 font-sans bg-lime-50 h-60 md:h-60 lg:h-52 2xl:h-[22vh]  text-center">
         <div
             class="bg-[url('https://spein0ps.com/sandbox/deputied/assets/img/Moods/absent.jpg')] bg-no-repeat bg-cover bg-center w-full h-full flex flex-col justify-between ">
             <div
