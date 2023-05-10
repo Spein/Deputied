@@ -29,7 +29,7 @@
             </div>
         </div> -->
         <div
-            class="sidebar absolute z-10 lg:relative bg-gray-700 col-span-2 flex flex-col items-start justify-start max-h-full lg:max-h-[105vh]  overflow-auto">
+            class="sidebar absolute z-10 lg:relative bg-gray-700 col-span-2 flex flex-col items-start justify-start max-h-full  xl:max-h-[154vh] 2xl:max-h-[103vh] overflow-auto">
             <div class=" w-full flex items-center justify-between px-4 py-3 lg:hidden">
                 <button @click="isMobileNavOpen = !isMobileNavOpen" type="button"
                     class="text-gray-400 hover:text-white focus:outline-none focus:text-white" aria-controls="mobile-menu"
@@ -170,11 +170,11 @@
             </div>
             <div v-else>
                 <div
-                    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-rows-3 lg:grid-cols-3 2xl:grid-cols-3 h-screen gap-4 p-4 ">
+                    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-rows-3 lg:grid-cols-4 2xl:grid-cols-8 h-screen gap-4 p-4 ">
                     <HomeCount />
 
                     <div
-                        class="bg-gray-800 rounded-lg p-4 grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-2  col-span-2 lg:col-span-1 gap-6">
+                        class="bg-gray-800 rounded-lg p-4 grid grid-cols-1 sm:grid-cols-2 lg:col-span-2 2xl:grid-cols-2 2xl:col-span-2  col-span-2  gap-6">
 
                         <DepMood :deputies="this.deputies" :laws="this.laws" :avis="'oui'" v-on:select_deputy="selectDeputy"
                             v-on:switch_modal="switchModal">Oui-Oui</DepMood>
@@ -199,7 +199,7 @@
                     <div
                         class="lg:col-span-1 grid-cols-1  md:col-span-2 2xl:col-span-2    grid bg-gray-800 rounded-lg p-4  ">
                         <h2 class="text-white font-bold text-xl mb-2  ">Graphique</h2>
-                        <div class="  min-h-[50vh] w-full lg:w-[55vw] ">
+                        <div class="  min-h-[50vh] w-full lg:min-w-[35vw] 2xl:min-w-[69vw] ">
                             <LineChart />
                         </div>
 

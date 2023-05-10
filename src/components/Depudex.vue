@@ -1,13 +1,13 @@
 <template>
     <div
-        class="absolute z-10 w-3/4 bg-slate-50 lg:top-36 lg:left-1/2 lg:w-1/2 flex flex-col flex-wrap  border-4 border-gray-700 rounded-lg ">
+        class="absolute z-10 w-3/4 bg-slate-50 lg:top-36 lg:left-1/2 lg:w-5/12 xl:w-5/12 2xl:w-1/4 flex flex-col flex-wrap  border-4 border-gray-700 rounded-lg ">
         <div class="bg-gray-900  text-white py-1 px-2 font-bold text-sm flex justify-between">
             <h5>DÉPUDEX</h5>
             <span class="mdi mdi-close" @click="switchModal()"></span>
         </div>
         <div class="bg-gray-300 w-full   flex flex-wrap">
 
-            <div class="  flex w-max">
+            <div class="  flex w-max xl:w-max">
                 <img :src="`https://spein0ps.com/sandbox/deputied/assets/img/normal/${deputy.name}.jpg`" alt="image"
                     class=" sepia-[.5] w-screen flex-grow sm:w-full    ">
 
@@ -24,8 +24,50 @@
                 </p>
                 <p class="mb-2"><span class="font-bold">Presence:</span> {{
                     calculDepPresence(deputy.name) }}%</p>
-                <p class="mb-2"><span class="font-bold">Wikipedia:</span><a class=" underline" href="/">Lien
-                        vers le wiki</a></p>
+                <div class="flex ">
+                    <p class="mb-2"><span class="font-bold">Contact:</span> </p>
+                    <div>
+                        <a v-if="deputy.email" class="p-1" :href="`mailto:${deputy.email}`">
+                            <span class="text-lg text-slate-300 mdi mdi-email">
+                            </span>
+
+                        </a>
+                        <a v-if="deputy.tel" class="p-1" :href="`tel:+32${deputy.tel.replace(/\./g, '').slice(1)}`">
+                            <span class="text-lg text-slate-300 mdi mdi-phone">
+                            </span>
+
+                        </a>
+                        <a v-if="deputy.fax" class="p-1" :href="`tel:+32${deputy.fax.replace(/\./g, '').slice(1)}`">
+                            <span class="text-lg text-slate-300 mdi mdi-fax">
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="flex ">
+                    <p class="mb-2"><span class="font-bold">Réseaux sociaux:</span> </p>
+                    <div>
+                        <a v-if="deputy.rs.dep_facebook" class="p-1" :href="`${deputy.rs.dep_facebook}`">
+                            <span class="text-lg text-slate-300 mdi mdi-facebook">
+                            </span>
+
+                        </a>
+                        <a v-if="deputy.rs.dep_twitter" class="p-1" :href="`${deputy.rs.dep_twitter}`">
+                            <span class="text-lg text-slate-300 mdi mdi-twitter">
+                            </span>
+
+                        </a>
+                        <a v-if="deputy.rs.dep_instagram" class="p-1" :href="`${deputy.rs.dep_instagram}`">
+                            <span class="text-lg text-slate-300 mdi mdi-instagram">
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
             </div>
             <div class="max-h-96 overflow-auto max-w-full p-4 text-white  flex-wrap text-xs flex">
                 <div class="flex flex-col max-w-full justify-start items-start">
